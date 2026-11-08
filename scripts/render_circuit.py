@@ -6,9 +6,11 @@ python scripts/render_circuit.py --refresh
 from __future__ import annotations
 
 import argparse
+import base64
 import bisect
 import html
 import json
+import io
 import math
 import re
 from datetime import date, datetime, timezone
@@ -197,11 +199,52 @@ def draw_frame(board, sprites, progress):
     return frame.convert("RGB")
 
 
+def render_svg(board, sprites, frames):
+    """Self-contained SVG: image-safe SMIL, no scripts or external resources.
+
+    GitHub may hide GIFs until its animated-image enhancement initializes.
+    SVG remains visible as a normal image, with a good static first frame.
+    """
+    def uri(image):
+        buffer = io.BytesIO()
+        image.save(buffer,format='PNG',optimize=True)
+        return 'data:image/png;base64,'+base64.b64encode(buffer.getvalue()).decode('ascii')
+    duration=frames/FPS
+    positions, directions = [], []
+    for index in range(frames+1):
+        progress=index/frames
+        x,y,angle=pose(progress*LENGTH+47)
+        positions.append(f'{x-43:.2f} {y-174/192*86+math.sin(progress*math.tau*36)*.6:.2f}')
+        directions.append(round(math.degrees(angle)/22.5)%16)
+    pieces=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">',
+            '<title id="title">Circuito de Commits — Lucas de Oliveira</title>',
+            '<desc id="desc">Cada bloco da pista representa um dia real do calendário de contribuições. O kart percorre o circuito em uma volta de 24 segundos.</desc>',
+            '<style>.still{display:none} @media(prefers-reduced-motion:reduce){.moving{display:none}.still{display:inline}}</style>',
+            f'<image width="{W}" height="{H}" xlink:href="{uri(board)}"/>',
+            '<g class="moving">',
+            f'<g transform="translate({positions[0]})"><animateTransform attributeName="transform" type="translate" values="{";".join(positions)}" dur="{duration}s" calcMode="linear" repeatCount="indefinite"/>']
+    for direction,sprite in enumerate(sprites):
+        # Retain only direction changes to keep the SVG small.
+        keys=[0]+[i for i in range(1,frames+1) if directions[i]!=directions[i-1]]
+        if keys[-1]!=frames:
+            keys.append(frames)
+        values=';'.join('1' if directions[i]==direction else '0' for i in keys)
+        times=';'.join(f'{i/frames:.6f}' for i in keys)
+        opacity=1 if direction==directions[0] else 0
+        pieces.append(f'<image width="86" height="86" opacity="{opacity}" style="image-rendering:pixelated" xlink:href="{uri(sprite)}"><animate attributeName="opacity" values="{values}" keyTimes="{times}" calcMode="discrete" dur="{duration}s" repeatCount="indefinite"/></image>')
+    pieces.extend(['</g></g>',f'<image class="still" width="{W}" height="{H}" xlink:href="{uri(draw_frame(board,sprites,0))}"/>','</svg>'])
+    target=ROOT/'assets/commit-circuit.svg'
+    temporary=target.with_suffix('.tmp.svg')
+    temporary.write_text('\n'.join(pieces)+'\n',encoding='utf-8')
+    temporary.replace(target)
+
+
 def render(data, frames=FRAMES):
     board, mapping = draw_board(validate(data))
     sprites = load_sprites()
     still = draw_frame(board,sprites,0)
     still.save(ROOT/'assets/commit-circuit.png', optimize=True)
+    render_svg(board,sprites,frames)
     # One shared palette prevents background flicker and allows tiny GIF delta frames.
     swatches = board.copy()
     for index, sprite in enumerate(sprites):

@@ -33,12 +33,12 @@ Antes do código, entender o problema. Depois, fazer cada parte funcionar junto.
 ### Circuito de Commits
 
 <a href="https://github.com/lucazolvr?tab=overview">
-  <img src="assets/commit-circuit.gif" width="100%" alt="Circuito de Commits: os dias do meu calendário de contribuições formam o asfalto de uma pista, em roxo, lilás e dourado. Meu mascote percorre as curvas num kart." />
+  <img src="assets/commit-circuit.svg" width="100%" alt="Circuito de Commits: os dias do meu calendário de contribuições formam o asfalto de uma pista, em roxo, lilás e dourado. Meu mascote percorre as curvas num kart." />
 </a>
 
 Cada bloco da pista representa **um dia**. A cor mostra a intensidade das contribuições, do roxo ao dourado. Os dias seguem em ordem cronológica, três por trecho, ao longo do traçado.
 
-Contribuições públicas e privadas anonimizadas, conforme exibidas no calendário público do GitHub. A imagem é atualizada diariamente pelo workflow deste repositório.
+Contribuições públicas e privadas anonimizadas, conforme exibidas no calendário público do GitHub. O período e a data de atualização aparecem na imagem.
 
 <details>
   <summary>Ver a pista sem animação</summary>

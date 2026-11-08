@@ -11,6 +11,8 @@ Este é um pacote independente. Não substitui o README do portfólio e não alt
 
 O workflow usa somente o `GITHUB_TOKEN` automático para salvar os arquivos neste repositório. **Não precisa cadastrar PAT nem dar acesso aos repositórios privados.** O script lê as contagens anonimizadas já visíveis em https://github.com/users/lucazolvr/contributions. Se esse formato mudar ou vier incompleto, ele falha e mantém a pista anterior, em vez de inventar atividade.
 
+**Estado em 08/11/2026:** o README foi publicado, mas a primeira execução do workflow foi bloqueada pelo GitHub antes de iniciar, com a mensagem “The job was not started because your account is locked due to a billing issue.” A atualização automática depende da resolução dessa pendência da conta. As imagens publicadas continuam funcionando com o snapshot atual; nenhuma configuração de cobrança foi alterada.
+
 Se as contribuições privadas forem ocultadas no perfil, as contagens da imagem também deixarão de incluí-las na próxima atualização. Esse desenho representa **contribuições**, não apenas commits: é a mesma métrica do calendário do GitHub.
 
 ## Como a pista representa os dados
@@ -19,7 +21,7 @@ Se as contribuições privadas forem ocultadas no perfil, as contagens da imagem
 - Os dias avançam do mais antigo ao mais recente a partir da largada. Cada trecho tem três blocos, da esquerda para a direita em relação ao sentido do percurso.
 - Roxo escuro representa zero; roxo, lilás e dourado representam os quatro níveis de atividade retornados pelo GitHub.
 - As curvas, os blocos e a posição do kart usam a mesma linha de percurso. O kart viaja a velocidade constante e seleciona entre 16 vistas conforme a direção.
-- O GIF tem 480 frames a 20 fps, formando uma volta de 24 segundos sem teleporte na emenda. `commit-circuit.png` é a alternativa sem animação.
+- O README usa um SVG autocontido com movimento interpolado e sprites direcionais, sem JavaScript ou imagens externas. Ele respeita movimento reduzido. O GIF alternativo tem 480 frames a 20 fps, formando uma volta de 24 segundos sem teleporte na emenda. `commit-circuit.png` é a alternativa estática.
 - `assets/circuit-map.json` relaciona cada bloco à data, contagem e nível originais; `data/contributions.json` guarda a fonte e a data da atualização.
 
 ## Atualizar localmente
