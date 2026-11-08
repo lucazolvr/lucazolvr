@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Lucas de Oliveira — Desenvolvedor web e mobile" />
+  <img src="assets/header-pixel.svg" width="100%" alt="Lucas de Oliveira — Desenvolvedor web e mobile" />
 </p>
 
 <p align="center">
