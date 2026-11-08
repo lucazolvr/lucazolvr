@@ -137,8 +137,16 @@ def draw_board(data):
     draw.text((38, 69), "Contribuições que constroem o caminho.", font=font(16), fill=MUTED)
     draw.text((38, 139), f'{data["total"]:,}'.replace(',', '.'), font=font(47, True), fill=GOLD)
     draw.text((39, 197), "contribuições no período", font=font(16), fill=TEXT)
-    draw.text((39, 227), f'{len(data["days"])} dias · cada bloco, um dia', font=font(14), fill=MUTED)
-    draw.text((39, 253), "Públicas + privadas anonimizadas", font=font(13), fill=MUTED)
+    active_days = sum(day['count'] > 0 for day in data['days'])
+    current_streak = longest_streak = 0
+    for day in data['days']:
+        current_streak = current_streak+1 if day['count'] else 0
+        longest_streak = max(longest_streak,current_streak)
+    draw.text((39, 232), str(active_days), font=font(24, True), fill="#cba2ef")
+    draw.text((186, 232), f'{longest_streak} dias', font=font(24, True), fill="#cba2ef")
+    draw.text((39, 264), "dias ativos", font=font(12), fill=MUTED)
+    draw.text((186, 264), "maior sequência", font=font(12), fill=MUTED)
+    draw.text((39, 292), f'{len(data["days"])} dias · um bloco por dia', font=font(12), fill=MUTED)
     draw.line(POINTS, fill="#0a0918", width=76, joint="curve")
     # Discrete curbs, continuously following the racing line.
     for index in range(math.ceil(LENGTH/13)):

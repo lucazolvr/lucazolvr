@@ -1,54 +1,40 @@
-<a href="https://lucazolvr.tech">
-  <img src="assets/profile-banner.png" width="100%" alt="Lucas de Oliveira — Do mundo das ideias ao produto real. Desenvolvimento web e mobile." />
-</a>
-
 <p align="center">
-  <a href="https://lucazolvr.tech">Portfólio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/lucazolvr/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:lucazolvr@gmail.com">E-mail</a> &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/lucazolvr/">Instagram</a>
+  <img src="assets/header.svg" width="100%" alt="Lucas de Oliveira — Desenvolvedor web e mobile" />
 </p>
 
-Sou **Lucas de Oliveira, desenvolvedor web e mobile**. Construo aplicações que conectam interface, dados e a rotina de quem usa — de registros no campo a mapas, cuidado com animais e gestão de operações.
+<p align="center">
+  <a href="https://lucazolvr.tech"><img src="assets/contact-portfolio.svg" height="36" alt="Portfólio · lucazolvr.tech" /></a>
+  <a href="https://www.linkedin.com/in/lucazolvr/"><img src="assets/contact-linkedin.svg" height="36" alt="LinkedIn" /></a>
+  <a href="mailto:lucazolvr@gmail.com"><img src="assets/contact-email.svg" height="36" alt="E-mail · lucazolvr@gmail.com" /></a>
+  <a href="https://www.instagram.com/lucazolvr/"><img src="assets/contact-instagram.svg" height="36" alt="Instagram" /></a>
+</p>
 
-Antes do código, entender o problema. Depois, fazer cada parte funcionar junto.
+<p align="center">Construo interfaces, aplicativos e integrações com atenção à experiência de quem usa.</p>
 
-### Ideias que já ganharam forma
+## Tecnologias
 
-| Projeto | O que estou construindo |
-| :--- | :--- |
-| **[ReproBov](https://lucazolvr.tech/projetos/reprobov/)** | Gestão reprodutiva de bovinos, com registros em campo, indicadores do rebanho e operação offline. |
-| **[ObservaPet](https://observapet.com.br/)** | Registro e acompanhamento de animais em situação de rua, com mapas e apoio a ONGs parceiras. |
-| **[The Places](https://lucazolvr.tech/projetos/the-places/)** | Informações sobre o movimento dos lugares de Teresina, para decidir antes de sair. Em construção. |
-| **[Chips](https://chipsgestao.com.br/)** | Clareza sobre gastos e perdas, ajudando apostadores a reconhecer padrões e repensar sua relação com as apostas. |
-| **[Sigma Painel](https://lucazolvr.tech/projetos/sigma-painel/)** | Gestão de assinantes, cobranças e caixa, com atendimento integrado ao Telegram. Sistema privado; prévia com dados fictícios no portfólio. |
+<p align="center"><strong>Web &amp; mobile</strong></p>
+<p align="center">
+  <img src="assets/stack-web.svg" width="360" alt="TypeScript, JavaScript, React e React Native, Next.js, Flutter, Tailwind CSS" />
+</p>
 
-### Da interface à aplicação
+<p align="center"><strong>APIs, dados &amp; ferramentas</strong></p>
+<p align="center">
+  <img src="assets/stack-api.svg" width="360" alt="Node.js, NestJS, Python, Java, Supabase, GitHub" />
+</p>
 
-**Web** &nbsp; Next.js · React · TypeScript · Tailwind CSS<br />
-**Mobile** &nbsp; React Native · Expo · Flutter<br />
-**APIs e dados** &nbsp; Node.js · NestJS · Python · Supabase<br />
-**Integrações** &nbsp; MapLibre · Telegram · GitHub
+## Circuito de Commits
 
-### Circuito de Commits
-
-<a href="https://github.com/lucazolvr?tab=overview">
-  <img src="assets/commit-circuit.svg" width="100%" alt="Circuito de Commits: os dias do meu calendário de contribuições formam o asfalto de uma pista, em roxo, lilás e dourado. Meu mascote percorre as curvas num kart." />
-</a>
-
-Cada bloco da pista representa **um dia**. A cor mostra a intensidade das contribuições, do roxo ao dourado. Os dias seguem em ordem cronológica, três por trecho, ao longo do traçado.
-
-Contribuições públicas e privadas anonimizadas, conforme exibidas no calendário público do GitHub. O período e a data de atualização aparecem na imagem.
+<p align="center">
+  <a href="https://github.com/lucazolvr?tab=overview"><img src="assets/commit-circuit.svg" width="100%" alt="Meu calendário de contribuições forma a pista por onde o mascote corre de kart. Roxo, lilás e dourado indicam a intensidade de cada dia." /></a>
+</p>
 
 <details>
-  <summary>Ver a pista sem animação</summary>
-  <br />
-  <img src="assets/commit-circuit.png" width="100%" alt="Versão estática do Circuito de Commits, com o mesmo período, dados e legenda da versão animada." />
+  <summary>Sobre a pista · versão sem animação</summary>
+  <p>Cada bloco representa um dia real do calendário do GitHub, incluindo as contribuições privadas anonimizadas visíveis no perfil. O período e a data da atualização estão na imagem.</p>
+  <img src="assets/commit-circuit.png" width="100%" alt="Circuito de Commits, versão estática" />
 </details>
 
----
-
-**Sua próxima ideia começa numa conversa.**<br />
-[Vamos construir algo juntos →](mailto:lucazolvr@gmail.com)
-
-<sub>“O importante é o que se faz, não o que se diz.”</sub>
+<br />
+<p align="center"><sub>O importante é o que se faz, não o que se diz.</sub></p>
+<p align="center"><img src="assets/footer.svg" width="100%" alt="" /></p>

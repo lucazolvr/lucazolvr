@@ -37,7 +37,7 @@ python3 -m venv .venv
 
 No Windows, use `.venv\Scripts\python.exe` e `.venv\Scripts\pip.exe`.
 
-Sem `--refresh`, o renderizador usa o snapshot incluído, permitindo reproduzir a imagem offline. O banner é estático e preserva a arte e a tipografia do portfólio. Os sprites são os mesmos do kart aprovado; não dependem de nenhum servidor de badges ou estatísticas.
+Sem `--refresh`, o renderizador usa o snapshot incluído, permitindo reproduzir a imagem offline. O cabeçalho compacto usa SVG com nome, função e ondas violetas. Os ícones e badges são arquivos locais. Os sprites são os mesmos do kart aprovado; não dependem de nenhum servidor de badges ou estatísticas. A direção e as referências do redesenho estão em DESIGN.md.
 
 ## Referências
 
