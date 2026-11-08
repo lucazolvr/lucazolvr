@@ -20,7 +20,7 @@
 
 <p align="center"><strong>APIs, dados &amp; ferramentas</strong></p>
 <p align="center">
-  <img src="assets/stack-api.svg" width="360" alt="Node.js, NestJS, Python, Java, Supabase, GitHub" />
+  <img src="assets/stack-api-postgres-fastify.svg" width="420" alt="Node.js, NestJS, Fastify, Python, Java, PostgreSQL, GitHub" />
 </p>
 
 ## Circuito de Commits
