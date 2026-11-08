@@ -38,7 +38,7 @@ def render(name, height, divider=False):
     document = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{height}" viewBox="0 0 1000 {height}">
 <defs><clipPath id="bounds"><rect width="1000" height="{height}" rx="8"/></clipPath></defs>
 <style>.tide{{animation:tide 9s ease-in-out infinite alternate}}@keyframes tide{{from{{transform:translateY(0)}}to{{transform:translateY(4px)}}}}@media(prefers-reduced-motion:reduce){{.tide{{animation:none}}}}</style>
-<g clip-path="url(#bounds)"><rect width="1000" height="{height}" fill="#0d1117"/><g class="tide" shape-rendering="crispEdges">{paths}</g></g></svg>
+<g clip-path="url(#bounds)"><g class="tide" shape-rendering="crispEdges">{paths}</g></g></svg>
 '''
     target = ROOT / 'assets' / name
     target.write_text(document, encoding='utf-8')
@@ -48,3 +48,4 @@ def render(name, height, divider=False):
 if __name__ == '__main__':
     render('footer-pixel.svg', 96)
     render('divider-pixel.svg', 28, divider=True)
+
