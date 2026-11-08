@@ -12,6 +12,8 @@ Banner baixo com nome e função centralizados, ondas violetas e detalhe dourado
 
 O dono pediu substituir as ondas lisas do cabeçalho pela retícula do Aute usada no portfólio. `header-pixel.svg` usa o mesmo Bayer 4×4 e camadas em roxo/lilás com luz dourada localizada. A faixa de baixo é mais espessa e irregular, sobe pelas laterais e preserva uma ilha fixa sem textura atrás dos textos. SVG autocontido, sem cursor/JavaScript no README; movimento vertical de apenas 4px em 11 segundos e versão parada em movimento reduzido. Gerador reproduzível em `scripts/render_header.py`.
 
+O rodapé também usa ondas de pixels, no lugar da onda lisa, com dourado à direita e dissolução nas pontas. Um único separador baixo entre a stack e o circuito repete a textura de forma discreta. Ambos são SVGs autocontidos, com movimento vertical de 4px em 9 segundos e alternativa estática para movimento reduzido; gerador em `scripts/render_pixel_accents.py`. O circuito continua sendo o foco da animação do perfil. A fileira de APIs contém sete ícones, incluindo PostgreSQL e Fastify.
+
 Superfície #0d1117, tinta #f1edf9, lilás #c6afff e dourado #efd08f. Tipografia sem serifa, compatível com o ambiente do GitHub. Ícones coloridos de tecnologias em suportes discretos da mesma família, com alt e title. Badges de contato com altura de 36px e desenhos vetoriais no mesmo traço.
 
 O circuito preserva os dias e intensidades reais. Dias ativos e maior sequência são calculados a partir desses dados. Nenhuma dependência externa de stats com dados privados incompletos. SVGs autocontidos e movimento reduzido preservados. O bloqueio de billing do Actions continua registrado em INSTALAR.md; não afirmar que a automação já executa.

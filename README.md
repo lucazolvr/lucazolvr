@@ -23,6 +23,8 @@
   <img src="assets/stack-api-postgres-fastify.svg" width="420" alt="Node.js, NestJS, Fastify, Python, Java, PostgreSQL, GitHub" />
 </p>
 
+<p align="center"><img src="assets/divider-pixel.svg" width="100%" alt="" /></p>
+
 ## Circuito de Commits
 
 <p align="center">
@@ -37,4 +39,4 @@
 
 <br />
 <p align="center"><sub>O importante é o que se faz, não o que se diz.</sub></p>
-<p align="center"><img src="assets/footer.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/footer-pixel.svg" width="100%" alt="" /></p>
