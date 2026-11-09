@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/commit-circuit.svg assets/commit-circuit.gif assets/commit-circuit.png assets/circuit-map.json data/contributions.json
+          git add assets/profile-panel.svg assets/commit-circuit.svg assets/commit-circuit.gif assets/commit-circuit.png assets/circuit-map.json data/contributions.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: atualizar Circuito de Commits [skip ci]'
             git push

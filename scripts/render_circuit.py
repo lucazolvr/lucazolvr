@@ -123,16 +123,17 @@ def road_tile(distance, length, low, high):
         pose(distance+length*step/4, high)[:2] for step in range(4, -1, -1)]
 
 
-def draw_board(data):
-    board = Image.new("RGB", (W, H), BG)
+def draw_board(data, *, transparent=False):
+    board = Image.new("RGBA", (W, H)) if transparent else Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(board)
     # Sparse print texture concentrated around the actual road, not a rectangular backdrop.
-    for y in range(100, 525, 8):
-        for x in range(30, 970, 8):
-            intensity = math.exp(-((x-710)/340)**2-((y-330)/180)**2)
-            if intensity > .16:
-                color = tuple(round(a+(b-a)*intensity*.34) for a, b in zip((13,14,32),(103,66,147)))
-                draw.rectangle((x,y,x+1,y+1), fill=color)
+    if not transparent:
+        for y in range(100, 525, 8):
+            for x in range(30, 970, 8):
+                intensity = math.exp(-((x-710)/340)**2-((y-330)/180)**2)
+                if intensity > .16:
+                    color = tuple(round(a+(b-a)*intensity*.34) for a, b in zip((13,14,32),(103,66,147)))
+                    draw.rectangle((x,y,x+1,y+1), fill=color)
     draw.text((38, 27), "Circuito de Commits", font=font(30, True), fill=TEXT)
     draw.text((38, 69), "Contribuições que constroem o caminho.", font=font(16), fill=MUTED)
     draw.text((38, 139), f'{data["total"]:,}'.replace(',', '.'), font=font(47, True), fill=GOLD)
@@ -207,12 +208,8 @@ def draw_frame(board, sprites, progress):
     return frame.convert("RGB")
 
 
-def render_svg(board, sprites, frames):
-    """Self-contained SVG: image-safe SMIL, no scripts or external resources.
-
-    GitHub may hide GIFs until its animated-image enhancement initializes.
-    SVG remains visible as a normal image, with a good static first frame.
-    """
+def circuit_markup(board, sprites, frames):
+    """SVG layers shared by the standalone circuit and the profile panel."""
     def uri(image):
         buffer = io.BytesIO()
         image.save(buffer,format='PNG',optimize=True)
@@ -224,14 +221,17 @@ def render_svg(board, sprites, frames):
         x,y,angle=pose(progress*LENGTH+47)
         positions.append(f'{x-43:.2f} {y-174/192*86+math.sin(progress*math.tau*36)*.6:.2f}')
         directions.append(round(math.degrees(angle)/22.5)%16)
-    pieces=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">',
-            '<title id="title">Circuito de Commits — Lucas de Oliveira</title>',
-            '<desc id="desc">Cada bloco da pista representa um dia real do calendário de contribuições. O kart percorre o circuito em uma volta de 24 segundos.</desc>',
-            '<style>.still{display:none} @media(prefers-reduced-motion:reduce){.moving{display:none}.still{display:inline}}</style>',
+    pieces=['<style>.kart-still{display:none} @media(prefers-reduced-motion:reduce){.kart-moving{display:none}.kart-still{display:inline}}</style>',
             f'<image width="{W}" height="{H}" xlink:href="{uri(board)}"/>',
-            '<g class="moving">',
-            f'<g transform="translate({positions[0]})"><animateTransform attributeName="transform" type="translate" values="{";".join(positions)}" dur="{duration}s" calcMode="linear" repeatCount="indefinite"/>']
-    for direction,sprite in enumerate(sprites):
+            '<defs>']
+    for direction, sprite in enumerate(sprites):
+        pieces.append(f'<image id="kart-{direction}" width="86" height="86" style="image-rendering:pixelated" xlink:href="{uri(sprite)}"/>')
+    pieces.extend([
+        '</defs>',
+        '<g class="kart-moving">',
+        f'<g transform="translate({positions[0]})"><animateTransform attributeName="transform" type="translate" values="{";".join(positions)}" dur="{duration}s" calcMode="linear" repeatCount="indefinite"/>',
+    ])
+    for direction in range(len(sprites)):
         # Retain only direction changes to keep the SVG small.
         keys=[0]+[i for i in range(1,frames+1) if directions[i]!=directions[i-1]]
         if keys[-1]!=frames:
@@ -239,20 +239,36 @@ def render_svg(board, sprites, frames):
         values=';'.join('1' if directions[i]==direction else '0' for i in keys)
         times=';'.join(f'{i/frames:.6f}' for i in keys)
         opacity=1 if direction==directions[0] else 0
-        pieces.append(f'<image width="86" height="86" opacity="{opacity}" style="image-rendering:pixelated" xlink:href="{uri(sprite)}"><animate attributeName="opacity" values="{values}" keyTimes="{times}" calcMode="discrete" dur="{duration}s" repeatCount="indefinite"/></image>')
-    pieces.extend(['</g></g>',f'<image class="still" width="{W}" height="{H}" xlink:href="{uri(draw_frame(board,sprites,0))}"/>','</svg>'])
-    target=ROOT/'assets/commit-circuit.svg'
-    temporary=target.with_suffix('.tmp.svg')
-    temporary.write_text('\n'.join(pieces)+'\n',encoding='utf-8')
+        pieces.append(f'<use xlink:href="#kart-{direction}" opacity="{opacity}"><animate attributeName="opacity" values="{values}" keyTimes="{times}" calcMode="discrete" dur="{duration}s" repeatCount="indefinite"/></use>')
+    pieces.extend(['</g></g>', f'<use class="kart-still" xlink:href="#kart-{directions[0]}" transform="translate({positions[0]})"/>'])
+    return '\n'.join(pieces)
+
+
+def write_svg(name, document):
+    target = ROOT / 'assets' / name
+    temporary = target.with_suffix('.tmp.svg')
+    temporary.write_text(document + '\n', encoding='utf-8')
     temporary.replace(target)
 
 
+def render_svg(board, sprites, frames):
+    write_svg('commit-circuit.svg', f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">
+<title id="title">Circuito de Commits — Lucas de Oliveira</title>
+<desc id="desc">Cada bloco da pista representa um dia real do calendário de contribuições.</desc>
+{circuit_markup(board, sprites, frames)}
+</svg>''')
+
+
 def render(data, frames=FRAMES):
+    from render_profile import profile_svg
+
     board, mapping = draw_board(validate(data))
     sprites = load_sprites()
     still = draw_frame(board,sprites,0)
     still.save(ROOT/'assets/commit-circuit.png', optimize=True)
     render_svg(board,sprites,frames)
+    panel_board, _ = draw_board(data, transparent=True)
+    write_svg('profile-panel.svg', profile_svg(circuit_markup(panel_board, sprites, frames)))
     # One shared palette prevents background flicker and allows tiny GIF delta frames.
     swatches = board.copy()
     for index, sprite in enumerate(sprites):

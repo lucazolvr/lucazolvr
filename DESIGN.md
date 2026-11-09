@@ -8,11 +8,11 @@ Referências consultadas:
 - https://github.com/Adryanrr/Adryanrr — apresentação direta e badges de contato.
 - https://github.com/screen-gd/screen-gd — poucos elementos e assets SVG próprios.
 
-Banner baixo com nome e função centralizados, ondas violetas e detalhe dourado; quatro badges locais; uma frase de apresentação; duas fileiras de seis ícones; atividade real integrada ao circuito e legenda recolhida em details. Sem tabela de projetos, texto longo ou contadores inventados.
+Um painel contínuo reúne nome, apresentação, tecnologias, Circuito de Commits e frase de encerramento. A superfície violeta tem textura de pontos por toda a altura, luz dourada localizada e ondas de pixels nas duas extremidades. Os quatro links de contato ficam abaixo da imagem para serem clicáveis no GitHub. A seção recolhível inclui a lista de tecnologias em texto e a pista estática.
 
 O dono pediu substituir as ondas lisas do cabeçalho pela retícula do Aute usada no portfólio. `header-pixel.svg` usa o mesmo Bayer 4×4 e camadas em roxo/lilás com luz dourada localizada. A faixa de baixo é mais espessa e irregular, sobe pelas laterais e preserva uma ilha fixa sem textura atrás dos textos. SVG autocontido, sem cursor/JavaScript no README; movimento vertical de apenas 4px em 11 segundos e versão parada em movimento reduzido. Gerador reproduzível em `scripts/render_header.py`.
 
-O rodapé também usa ondas de pixels, no lugar da onda lisa, com dourado à direita e dissolução nas pontas. Um único separador baixo entre a stack e o circuito repete a textura de forma discreta. Ambos são SVGs autocontidos, com movimento vertical de 4px em 9 segundos e alternativa estática para movimento reduzido; gerador em `scripts/render_pixel_accents.py`. O circuito continua sendo o foco da animação do perfil. A fileira de APIs contém sete ícones, incluindo PostgreSQL e Fastify.
+O gerador `scripts/render_profile.py` reutiliza a retícula do cabeçalho e o desenho da pista com fundo transparente. A onda superior desce pelas laterais e libera o centro para o nome e a apresentação. A stack tem quatro grupos de tecnologias com ícones locais. O kart continua sendo o foco da animação.
 
 Superfície #0d1117, tinta #f1edf9, lilás #c6afff e dourado #efd08f. Tipografia sem serifa, compatível com o ambiente do GitHub. Ícones coloridos de tecnologias em suportes discretos da mesma família, com alt e title. Badges de contato com altura de 36px e desenhos vetoriais no mesmo traço.
 

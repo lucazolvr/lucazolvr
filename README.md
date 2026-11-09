@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header-pixel.svg" width="100%" alt="Lucas de Oliveira — Desenvolvedor web e mobile" />
+  <img src="assets/profile-panel.svg" width="100%" alt="Lucas de Oliveira, desenvolvedor web e mobile. Painel de tecnologias e Circuito de Commits com o mascote percorrendo o calendário de contribuições." />
 </p>
 
 <p align="center">
@@ -9,34 +9,15 @@
   <a href="https://www.instagram.com/lucazolvr/"><img src="assets/contact-instagram.svg" height="36" alt="Instagram" /></a>
 </p>
 
-<p align="center">Construo interfaces, aplicativos e integrações com atenção à experiência de quem usa.</p>
-
-## Tecnologias
-
-<p align="center"><strong>Web &amp; mobile</strong></p>
-<p align="center">
-  <img src="assets/stack-web.svg" width="360" alt="TypeScript, JavaScript, React e React Native, Next.js, Flutter, Tailwind CSS" />
-</p>
-
-<p align="center"><strong>APIs, dados &amp; ferramentas</strong></p>
-<p align="center">
-  <img src="assets/stack-api-postgres-fastify.svg" width="420" alt="Node.js, NestJS, Fastify, Python, Java, PostgreSQL, GitHub" />
-</p>
-
-<p align="center"><img src="assets/divider-pixel.svg" width="100%" alt="" /></p>
-
-## Circuito de Commits
-
-<p align="center">
-  <a href="https://github.com/lucazolvr?tab=overview"><img src="assets/commit-circuit.svg" width="100%" alt="Meu calendário de contribuições forma a pista por onde o mascote corre de kart. Roxo, lilás e dourado indicam a intensidade de cada dia." /></a>
-</p>
-
 <details>
-  <summary>Sobre a pista · versão sem animação</summary>
-  <p>Cada bloco representa um dia real do calendário do GitHub, incluindo as contribuições privadas anonimizadas visíveis no perfil. O período e a data da atualização estão na imagem.</p>
+  <summary>Tecnologias em texto e pista sem animação</summary>
+  <p>Construo interfaces, aplicativos e integrações com atenção à experiência de quem usa.</p>
+  <p><strong>Linguagens</strong> — TypeScript, JavaScript, Python, Java, HTML e CSS.</p>
+  <p><strong>Frontend, UI e mobile</strong> — React e React Native, Next.js, Tailwind CSS, Vite, Three.js e Flutter.</p>
+  <p><strong>Backend e APIs</strong> — Node.js, Fastify, Spring Boot, Django, NestJS, Postman e GitHub.</p>
+  <p><strong>Dados e cache</strong> — PostgreSQL, MySQL, Redis e Prisma.</p>
+  <p>Cada bloco da pista representa um dia real do calendário de contribuições do GitHub, incluindo as contribuições privadas anonimizadas visíveis no perfil. Roxo, lilás e dourado indicam a intensidade de cada dia. O período e a data da atualização estão na imagem.</p>
   <img src="assets/commit-circuit.png" width="100%" alt="Circuito de Commits, versão estática" />
+  <p><a href="https://github.com/lucazolvr?tab=overview">Ver atividade no GitHub</a></p>
+  <p><em>O importante é o que se faz, não o que se diz.</em></p>
 </details>
-
-<br />
-<p align="center"><sub>O importante é o que se faz, não o que se diz.</sub></p>
-<p align="center"><img src="assets/footer-pixel.svg" width="100%" alt="" /></p>

@@ -37,7 +37,7 @@ python3 -m venv .venv
 
 No Windows, use `.venv\Scripts\python.exe` e `.venv\Scripts\pip.exe`.
 
-Sem `--refresh`, o renderizador usa o snapshot incluído, permitindo reproduzir a imagem offline. O cabeçalho compacto usa SVG com nome, função e ondas violetas. Os ícones e badges são arquivos locais. Os sprites são os mesmos do kart aprovado; não dependem de nenhum servidor de badges ou estatísticas. A direção e as referências do redesenho estão em DESIGN.md.
+Sem `--refresh`, o renderizador usa o snapshot incluído. A mesma execução atualiza `profile-panel.svg`, que reúne a apresentação, as tecnologias e o circuito no mesmo fundo. Ícones, badges e sprites são locais. A direção e as referências do redesenho estão em DESIGN.md.
 
 ## Referências
 
