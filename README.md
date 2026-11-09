@@ -1,12 +1,7 @@
 <p align="center">
-  <img src="assets/profile-panel.svg" width="100%" alt="Lucas de Oliveira, desenvolvedor web e mobile. Painel de tecnologias e Circuito de Commits com o mascote percorrendo o calendário de contribuições." />
-</p>
-
-<p align="center">
-  <a href="https://lucazolvr.tech"><img src="assets/contact-portfolio.svg" height="36" alt="Portfólio · lucazolvr.tech" /></a>
-  <a href="https://www.linkedin.com/in/lucazolvr/"><img src="assets/contact-linkedin.svg" height="36" alt="LinkedIn" /></a>
-  <a href="mailto:lucazolvr@gmail.com"><img src="assets/contact-email.svg" height="36" alt="E-mail · lucazolvr@gmail.com" /></a>
-  <a href="https://www.instagram.com/lucazolvr/"><img src="assets/contact-instagram.svg" height="36" alt="Instagram" /></a>
+  <img src="assets/profile-intro.svg" align="top" width="100%" alt="Lucas de Oliveira, desenvolvedor web e mobile." /><br />
+  <a href="https://lucazolvr.tech"><img src="assets/profile-contact-portfolio.svg" align="top" width="25%" alt="Portfólio · lucazolvr.tech" /></a><a href="https://www.linkedin.com/in/lucazolvr/"><img src="assets/profile-contact-linkedin.svg" align="top" width="25%" alt="LinkedIn" /></a><a href="mailto:lucazolvr@gmail.com"><img src="assets/profile-contact-email.svg" align="top" width="25%" alt="E-mail · lucazolvr@gmail.com" /></a><a href="https://www.instagram.com/lucazolvr/"><img src="assets/profile-contact-instagram.svg" align="top" width="25%" alt="Instagram" /></a><br />
+  <img src="assets/profile-content.svg" align="top" width="100%" alt="Tecnologias e Circuito de Commits com o mascote percorrendo o calendário de contribuições." />
 </p>
 
 <details>

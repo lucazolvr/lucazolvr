@@ -28,8 +28,12 @@ STACK_ROWS = (
     )),
 )
 NEW_LOGOS = {'html5', 'css3', 'vitejs', 'threejs', 'spring', 'django', 'postman', 'mysql', 'redis', 'prisma'}
-PANEL_HEIGHT = 1636
-CIRCUIT_Y = 923
+CONTACT_TOP = 248
+CONTACT_HEIGHT = 112
+CONTENT_TOP = CONTACT_TOP + CONTACT_HEIGHT
+PANEL_HEIGHT = 1636 + CONTACT_HEIGHT
+CIRCUIT_Y = 923 + CONTACT_HEIGHT
+CONTACTS = ('portfolio', 'linkedin', 'email', 'instagram')
 
 
 def scope_icon_ids(icon, filename):
@@ -67,13 +71,10 @@ def stack_row(label, entries, top):
     return '\n'.join(pieces)
 
 
-def profile_svg(circuit):
-    field = pixel_field()
-    stack = '\n'.join(stack_row(label, entries, 367 + index * 138)
-                      for index, (label, entries) in enumerate(STACK_ROWS))
-    return f'''<svg xmlns="{SVG}" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="{PANEL_HEIGHT}" viewBox="0 0 1000 {PANEL_HEIGHT}" role="img" aria-labelledby="title desc">
-<title id="title">Lucas de Oliveira — Desenvolvedor web e mobile</title>
-<desc id="desc">Tecnologias e Circuito de Commits em um painel violeta. Cada bloco da pista representa um dia do calendário público de contribuições do GitHub.</desc>
+def panel_slice(x, y, width, height, content, *, wave=False):
+    # Every image samples the same surface coordinates, including the contact links.
+    wave_artwork = f'<g id="panel-wave" shape-rendering="crispEdges">{pixel_field()}</g>' if wave else ''
+    return f'''<svg xmlns="{SVG}" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="{height}" viewBox="{x} {y} {width} {height}">
 <defs>
   <clipPath id="panel-clip"><rect width="1000" height="{PANEL_HEIGHT}" rx="28"/></clipPath>
   <linearGradient id="panel-surface" x2=".26" y2="1">
@@ -92,17 +93,8 @@ def profile_svg(circuit):
   <pattern id="panel-dots" width="12" height="12" patternUnits="userSpaceOnUse">
     <rect width="1.5" height="1.5" fill="#baa0ed" opacity=".14"/>
   </pattern>
-  <g id="panel-wave" shape-rendering="crispEdges">{field}</g>
+{wave_artwork}
 </defs>
-<style>
-  text{{font-family:Arial,Helvetica,sans-serif;text-anchor:middle}}
-  .group-label{{font-size:19px;font-weight:700;fill:#ddc6fa}}
-  .tech-name{{font-size:16px;fill:#e5d9f5}}
-  .pixel-motion{{animation:panel-drift 11s ease-in-out infinite alternate}}
-  .pixel-footer{{animation-delay:-5s}}
-  @keyframes panel-drift{{from{{transform:translateY(-4px)}}to{{transform:translateY(0)}}}}
-  @media(prefers-reduced-motion:reduce){{.pixel-motion{{animation:none}}}}
-</style>
 <g clip-path="url(#panel-clip)">
   <rect width="1000" height="{PANEL_HEIGHT}" fill="url(#panel-surface)"/>
   <ellipse cx="123" cy="170" rx="415" ry="315" fill="url(#panel-violet)"/>
@@ -110,29 +102,65 @@ def profile_svg(circuit):
   <ellipse cx="222" cy="{CIRCUIT_Y + 373}" rx="482" ry="365" fill="url(#panel-violet)"/>
   <ellipse cx="821" cy="{PANEL_HEIGHT - 166}" rx="398" ry="226" fill="url(#panel-gold)"/>
   <rect width="1000" height="{PANEL_HEIGHT}" fill="url(#panel-dots)"/>
+  {content}
+</g>
+<rect x=".5" y=".5" width="999" height="{PANEL_HEIGHT - 1}" rx="27.5" fill="none" stroke="#46365e"/>
+</svg>'''
+
+
+PANEL_STYLES = '''<style>
+  .panel-text { font-family: Arial, Helvetica, sans-serif; text-anchor: middle; }
+  .group-label { font-size: 19px; font-weight: 700; fill: #ddc6fa; }
+  .tech-name { font-size: 16px; fill: #e5d9f5; }
+  .pixel-motion { animation: panel-drift 11s ease-in-out infinite alternate; }
+  .pixel-footer { animation-delay: -5s; }
+  @keyframes panel-drift { from { transform: translateY(-4px) } to { transform: translateY(0) } }
+  @media (prefers-reduced-motion: reduce) { .pixel-motion { animation: none } }
+</style>'''
+
+
+def profile_svgs(circuit):
+    intro = f'''{PANEL_STYLES}
   <g class="pixel-motion" opacity=".67">
     <use xlink:href="#panel-wave" transform="translate(0 236) scale(1 -1)"/>
   </g>
+  <g class="panel-text">
+    <path d="M500 36l6 6-6 6-6-6z" fill="#efd08f"/>
+    <text x="500" y="110" font-size="58" font-weight="700" fill="#f5effc">Lucas de Oliveira</text>
+    <text x="500" y="152" font-size="25" fill="#efd08f">Desenvolvedor web e mobile</text>
+    <text x="500" y="200" font-size="20" fill="#ddd3ed">Construo interfaces, aplicativos e integrações
+      <tspan x="500" dy="28">com atenção à experiência de quem usa.</tspan>
+    </text>
+  </g>'''
+    yield 'profile-intro.svg', panel_slice(0, 0, 1000, CONTACT_TOP, intro, wave=True)
+
+    for index, name in enumerate(CONTACTS):
+        badge = ET.parse(ASSETS / f'contact-{name}.svg').getroot()
+        scale = 1.54
+        x = index * 250
+        left = x + (250 - int(badge.attrib['width']) * scale) / 2
+        top = CONTACT_TOP + (CONTACT_HEIGHT - int(badge.attrib['height']) * scale) / 2
+        artwork = ET.tostring(badge, encoding='unicode')
+        contact = f'<g transform="translate({left} {top}) scale({scale})">{artwork}</g>'
+        yield f'profile-contact-{name}.svg', panel_slice(x, CONTACT_TOP, 250, CONTACT_HEIGHT, contact)
+
+    stack = '\n'.join(stack_row(label, entries, 367 + CONTACT_HEIGHT + index * 138)
+                      for index, (label, entries) in enumerate(STACK_ROWS))
+    body = f'''{PANEL_STYLES}
   <g opacity=".42" transform="translate(1000 {PANEL_HEIGHT - 240}) scale(-1 1)">
     <g class="pixel-motion pixel-footer"><use xlink:href="#panel-wave"/></g>
   </g>
   <g fill="url(#panel-rule)">
-    <rect x="64" y="280" width="872" height="1"/>
+    <rect x="64" y="{280 + CONTACT_HEIGHT}" width="872" height="1"/>
     <rect x="64" y="{CIRCUIT_Y - 20}" width="872" height="1"/>
     <rect x="64" y="{PANEL_HEIGHT - 127}" width="872" height="1"/>
   </g>
-  <path d="M500 36l6 6-6 6-6-6z" fill="#efd08f"/>
-  <text x="500" y="110" font-size="58" font-weight="700" fill="#f5effc">Lucas de Oliveira</text>
-  <text x="500" y="152" font-size="25" fill="#efd08f">Desenvolvedor web e mobile</text>
-  <text x="500" y="200" font-size="20" fill="#ddd3ed">Construo interfaces, aplicativos e integrações
-    <tspan x="500" dy="28">com atenção à experiência de quem usa.</tspan>
-  </text>
-  <text x="500" y="320" font-size="28" font-weight="700" fill="#f5effc">Tecnologias</text>
-  {stack}
+  <g class="panel-text">
+    <text x="500" y="{320 + CONTACT_HEIGHT}" font-size="28" font-weight="700" fill="#f5effc">Tecnologias</text>
+    {stack}
+  </g>
   <g transform="translate(25 {CIRCUIT_Y}) scale(.95)">
     {circuit}
   </g>
-  <text x="500" y="{PANEL_HEIGHT - 70}" font-size="21" font-style="italic" fill="#eee1f9">O importante é o que se faz, não o que se diz.</text>
-</g>
-<rect x=".5" y=".5" width="999" height="{PANEL_HEIGHT - 1}" rx="27.5" fill="none" stroke="#46365e"/>
-</svg>'''
+  <text class="panel-text" x="500" y="{PANEL_HEIGHT - 70}" font-size="21" font-style="italic" fill="#eee1f9">O importante é o que se faz, não o que se diz.</text>'''
+    yield 'profile-content.svg', panel_slice(0, CONTENT_TOP, 1000, PANEL_HEIGHT - CONTENT_TOP, body, wave=True)

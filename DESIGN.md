@@ -8,7 +8,7 @@ Referências consultadas:
 - https://github.com/Adryanrr/Adryanrr — apresentação direta e badges de contato.
 - https://github.com/screen-gd/screen-gd — poucos elementos e assets SVG próprios.
 
-Um painel contínuo reúne nome, apresentação, tecnologias, Circuito de Commits e frase de encerramento. A superfície violeta tem textura de pontos por toda a altura, luz dourada localizada e ondas de pixels nas duas extremidades. Os quatro links de contato ficam abaixo da imagem para serem clicáveis no GitHub. A seção recolhível inclui a lista de tecnologias em texto e a pista estática.
+Um painel contínuo reúne nome, apresentação, contatos, tecnologias, Circuito de Commits e frase de encerramento. A superfície violeta tem textura de pontos por toda a altura, luz dourada localizada e ondas de pixels nas duas extremidades. Os quatro links ficam entre a apresentação e as tecnologias, em imagens separadas que compartilham o fundo do painel. A seção recolhível inclui a lista de tecnologias em texto e a pista estática.
 
 O dono pediu substituir as ondas lisas do cabeçalho pela retícula do Aute usada no portfólio. `header-pixel.svg` usa o mesmo Bayer 4×4 e camadas em roxo/lilás com luz dourada localizada. A faixa de baixo é mais espessa e irregular, sobe pelas laterais e preserva uma ilha fixa sem textura atrás dos textos. SVG autocontido, sem cursor/JavaScript no README; movimento vertical de apenas 4px em 11 segundos e versão parada em movimento reduzido. Gerador reproduzível em `scripts/render_header.py`.
 

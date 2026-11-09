@@ -260,7 +260,7 @@ def render_svg(board, sprites, frames):
 
 
 def render(data, frames=FRAMES):
-    from render_profile import profile_svg
+    from render_profile import profile_svgs
 
     board, mapping = draw_board(validate(data))
     sprites = load_sprites()
@@ -268,7 +268,8 @@ def render(data, frames=FRAMES):
     still.save(ROOT/'assets/commit-circuit.png', optimize=True)
     render_svg(board,sprites,frames)
     panel_board, _ = draw_board(data, transparent=True)
-    write_svg('profile-panel.svg', profile_svg(circuit_markup(panel_board, sprites, frames)))
+    for name, document in profile_svgs(circuit_markup(panel_board, sprites, frames)):
+        write_svg(name, document)
     # One shared palette prevents background flicker and allows tiny GIF delta frames.
     swatches = board.copy()
     for index, sprite in enumerate(sprites):

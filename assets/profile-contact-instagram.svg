@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="112" viewBox="750 248 250 112">
+<defs>
+  <clipPath id="panel-clip"><rect width="1000" height="1748" rx="28"/></clipPath>
+  <linearGradient id="panel-surface" x2=".26" y2="1">
+    <stop stop-color="#101023"/><stop offset=".51" stop-color="#111024"/><stop offset="1" stop-color="#16112a"/>
+  </linearGradient>
+  <radialGradient id="panel-violet">
+    <stop stop-color="#7449c6" stop-opacity=".38"/><stop offset="1" stop-color="#7449c6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="panel-gold">
+    <stop stop-color="#ddb17b" stop-opacity=".23"/><stop offset="1" stop-color="#ddb17b" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="panel-rule">
+    <stop stop-color="#c0a2e6" stop-opacity=".07"/><stop offset=".5" stop-color="#c0a2e6" stop-opacity=".42"/>
+    <stop offset="1" stop-color="#c0a2e6" stop-opacity=".07"/>
+  </linearGradient>
+  <pattern id="panel-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <rect width="1.5" height="1.5" fill="#baa0ed" opacity=".14"/>
+  </pattern>
+
+</defs>
+<g clip-path="url(#panel-clip)">
+  <rect width="1000" height="1748" fill="url(#panel-surface)"/>
+  <ellipse cx="123" cy="170" rx="415" ry="315" fill="url(#panel-violet)"/>
+  <ellipse cx="849" cy="525" rx="455" ry="434" fill="url(#panel-violet)"/>
+  <ellipse cx="222" cy="1408" rx="482" ry="365" fill="url(#panel-violet)"/>
+  <ellipse cx="821" cy="1582" rx="398" ry="226" fill="url(#panel-gold)"/>
+  <rect width="1000" height="1748" fill="url(#panel-dots)"/>
+  <g transform="translate(771.8199999999999 276.28) scale(1.54)"><svg xmlns="http://www.w3.org/2000/svg" width="134" height="36" viewBox="0 0 134 36" role="img"><title>Instagram</title><rect x=".5" y=".5" width="133" height="35" rx="7" fill="#1c192b" stroke="#bba7fb40" /><svg x="12" y="8" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c6afff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5h.01" /></svg><text x="42" y="23" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#eee8f8">Instagram</text></svg></g>
+</g>
+<rect x=".5" y=".5" width="999" height="1747" rx="27.5" fill="none" stroke="#46365e"/>
+</svg>

@@ -37,7 +37,7 @@ python3 -m venv .venv
 
 No Windows, use `.venv\Scripts\python.exe` e `.venv\Scripts\pip.exe`.
 
-Sem `--refresh`, o renderizador usa o snapshot incluído. A mesma execução atualiza `profile-panel.svg`, que reúne a apresentação, as tecnologias e o circuito no mesmo fundo. Ícones, badges e sprites são locais. A direção e as referências do redesenho estão em DESIGN.md.
+Sem `--refresh`, o renderizador usa o snapshot incluído. A mesma execução atualiza os SVGs da apresentação, dos contatos e do circuito. Eles compartilham as mesmas coordenadas de fundo para formar um painel contínuo com links individuais. Ícones, badges e sprites são locais. A direção e as referências do redesenho estão em DESIGN.md.
 
 ## Referências
 
