@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/users/lucazolvr/contributions",
-  "total": 1362,
-  "dayCount": 369,
+  "total": 1370,
+  "dayCount": 370,
   "days": [
     {
       "date": "2025-11-09",
@@ -33,7 +33,7 @@
       "level": 0,
       "column": 1,
       "lane": 0,
-      "distance": 24.323
+      "distance": 24.135
     },
     {
       "date": "2025-11-13",
@@ -41,7 +41,7 @@
       "level": 0,
       "column": 1,
       "lane": 1,
-      "distance": 24.323
+      "distance": 24.135
     },
     {
       "date": "2025-11-14",
@@ -49,7 +49,7 @@
       "level": 0,
       "column": 1,
       "lane": 2,
-      "distance": 24.323
+      "distance": 24.135
     },
     {
       "date": "2025-11-15",
@@ -57,7 +57,7 @@
       "level": 0,
       "column": 2,
       "lane": 0,
-      "distance": 47.647
+      "distance": 47.271
     },
     {
       "date": "2025-11-16",
@@ -65,7 +65,7 @@
       "level": 1,
       "column": 2,
       "lane": 1,
-      "distance": 47.647
+      "distance": 47.271
     },
     {
       "date": "2025-11-17",
@@ -73,7 +73,7 @@
       "level": 0,
       "column": 2,
       "lane": 2,
-      "distance": 47.647
+      "distance": 47.271
     },
     {
       "date": "2025-11-18",
@@ -81,7 +81,7 @@
       "level": 0,
       "column": 3,
       "lane": 0,
-      "distance": 70.97
+      "distance": 70.406
     },
     {
       "date": "2025-11-19",
@@ -89,7 +89,7 @@
       "level": 0,
       "column": 3,
       "lane": 1,
-      "distance": 70.97
+      "distance": 70.406
     },
     {
       "date": "2025-11-20",
@@ -97,7 +97,7 @@
       "level": 0,
       "column": 3,
       "lane": 2,
-      "distance": 70.97
+      "distance": 70.406
     },
     {
       "date": "2025-11-21",
@@ -105,7 +105,7 @@
       "level": 0,
       "column": 4,
       "lane": 0,
-      "distance": 94.293
+      "distance": 93.541
     },
     {
       "date": "2025-11-22",
@@ -113,7 +113,7 @@
       "level": 0,
       "column": 4,
       "lane": 1,
-      "distance": 94.293
+      "distance": 93.541
     },
     {
       "date": "2025-11-23",
@@ -121,7 +121,7 @@
       "level": 0,
       "column": 4,
       "lane": 2,
-      "distance": 94.293
+      "distance": 93.541
     },
     {
       "date": "2025-11-24",
@@ -129,7 +129,7 @@
       "level": 0,
       "column": 5,
       "lane": 0,
-      "distance": 117.617
+      "distance": 116.676
     },
     {
       "date": "2025-11-25",
@@ -137,7 +137,7 @@
       "level": 0,
       "column": 5,
       "lane": 1,
-      "distance": 117.617
+      "distance": 116.676
     },
     {
       "date": "2025-11-26",
@@ -145,7 +145,7 @@
       "level": 0,
       "column": 5,
       "lane": 2,
-      "distance": 117.617
+      "distance": 116.676
     },
     {
       "date": "2025-11-27",
@@ -153,7 +153,7 @@
       "level": 0,
       "column": 6,
       "lane": 0,
-      "distance": 140.94
+      "distance": 139.812
     },
     {
       "date": "2025-11-28",
@@ -161,7 +161,7 @@
       "level": 0,
       "column": 6,
       "lane": 1,
-      "distance": 140.94
+      "distance": 139.812
     },
     {
       "date": "2025-11-29",
@@ -169,7 +169,7 @@
       "level": 0,
       "column": 6,
       "lane": 2,
-      "distance": 140.94
+      "distance": 139.812
     },
     {
       "date": "2025-11-30",
@@ -177,7 +177,7 @@
       "level": 0,
       "column": 7,
       "lane": 0,
-      "distance": 164.263
+      "distance": 162.947
     },
     {
       "date": "2025-12-01",
@@ -185,7 +185,7 @@
       "level": 0,
       "column": 7,
       "lane": 1,
-      "distance": 164.263
+      "distance": 162.947
     },
     {
       "date": "2025-12-02",
@@ -193,7 +193,7 @@
       "level": 0,
       "column": 7,
       "lane": 2,
-      "distance": 164.263
+      "distance": 162.947
     },
     {
       "date": "2025-12-03",
@@ -201,7 +201,7 @@
       "level": 0,
       "column": 8,
       "lane": 0,
-      "distance": 187.587
+      "distance": 186.082
     },
     {
       "date": "2025-12-04",
@@ -209,7 +209,7 @@
       "level": 1,
       "column": 8,
       "lane": 1,
-      "distance": 187.587
+      "distance": 186.082
     },
     {
       "date": "2025-12-05",
@@ -217,7 +217,7 @@
       "level": 0,
       "column": 8,
       "lane": 2,
-      "distance": 187.587
+      "distance": 186.082
     },
     {
       "date": "2025-12-06",
@@ -225,7 +225,7 @@
       "level": 0,
       "column": 9,
       "lane": 0,
-      "distance": 210.91
+      "distance": 209.217
     },
     {
       "date": "2025-12-07",
@@ -233,7 +233,7 @@
       "level": 1,
       "column": 9,
       "lane": 1,
-      "distance": 210.91
+      "distance": 209.217
     },
     {
       "date": "2025-12-08",
@@ -241,7 +241,7 @@
       "level": 1,
       "column": 9,
       "lane": 2,
-      "distance": 210.91
+      "distance": 209.217
     },
     {
       "date": "2025-12-09",
@@ -249,7 +249,7 @@
       "level": 0,
       "column": 10,
       "lane": 0,
-      "distance": 234.234
+      "distance": 232.353
     },
     {
       "date": "2025-12-10",
@@ -257,7 +257,7 @@
       "level": 0,
       "column": 10,
       "lane": 1,
-      "distance": 234.234
+      "distance": 232.353
     },
     {
       "date": "2025-12-11",
@@ -265,7 +265,7 @@
       "level": 0,
       "column": 10,
       "lane": 2,
-      "distance": 234.234
+      "distance": 232.353
     },
     {
       "date": "2025-12-12",
@@ -273,7 +273,7 @@
       "level": 0,
       "column": 11,
       "lane": 0,
-      "distance": 257.557
+      "distance": 255.488
     },
     {
       "date": "2025-12-13",
@@ -281,7 +281,7 @@
       "level": 0,
       "column": 11,
       "lane": 1,
-      "distance": 257.557
+      "distance": 255.488
     },
     {
       "date": "2025-12-14",
@@ -289,7 +289,7 @@
       "level": 0,
       "column": 11,
       "lane": 2,
-      "distance": 257.557
+      "distance": 255.488
     },
     {
       "date": "2025-12-15",
@@ -297,7 +297,7 @@
       "level": 1,
       "column": 12,
       "lane": 0,
-      "distance": 280.88
+      "distance": 278.623
     },
     {
       "date": "2025-12-16",
@@ -305,7 +305,7 @@
       "level": 0,
       "column": 12,
       "lane": 1,
-      "distance": 280.88
+      "distance": 278.623
     },
     {
       "date": "2025-12-17",
@@ -313,7 +313,7 @@
       "level": 0,
       "column": 12,
       "lane": 2,
-      "distance": 280.88
+      "distance": 278.623
     },
     {
       "date": "2025-12-18",
@@ -321,7 +321,7 @@
       "level": 1,
       "column": 13,
       "lane": 0,
-      "distance": 304.204
+      "distance": 301.758
     },
     {
       "date": "2025-12-19",
@@ -329,7 +329,7 @@
       "level": 0,
       "column": 13,
       "lane": 1,
-      "distance": 304.204
+      "distance": 301.758
     },
     {
       "date": "2025-12-20",
@@ -337,7 +337,7 @@
       "level": 0,
       "column": 13,
       "lane": 2,
-      "distance": 304.204
+      "distance": 301.758
     },
     {
       "date": "2025-12-21",
@@ -345,7 +345,7 @@
       "level": 0,
       "column": 14,
       "lane": 0,
-      "distance": 327.527
+      "distance": 324.894
     },
     {
       "date": "2025-12-22",
@@ -353,7 +353,7 @@
       "level": 0,
       "column": 14,
       "lane": 1,
-      "distance": 327.527
+      "distance": 324.894
     },
     {
       "date": "2025-12-23",
@@ -361,7 +361,7 @@
       "level": 0,
       "column": 14,
       "lane": 2,
-      "distance": 327.527
+      "distance": 324.894
     },
     {
       "date": "2025-12-24",
@@ -369,7 +369,7 @@
       "level": 0,
       "column": 15,
       "lane": 0,
-      "distance": 350.85
+      "distance": 348.029
     },
     {
       "date": "2025-12-25",
@@ -377,7 +377,7 @@
       "level": 0,
       "column": 15,
       "lane": 1,
-      "distance": 350.85
+      "distance": 348.029
     },
     {
       "date": "2025-12-26",
@@ -385,7 +385,7 @@
       "level": 0,
       "column": 15,
       "lane": 2,
-      "distance": 350.85
+      "distance": 348.029
     },
     {
       "date": "2025-12-27",
@@ -393,7 +393,7 @@
       "level": 0,
       "column": 16,
       "lane": 0,
-      "distance": 374.174
+      "distance": 371.164
     },
     {
       "date": "2025-12-28",
@@ -401,7 +401,7 @@
       "level": 0,
       "column": 16,
       "lane": 1,
-      "distance": 374.174
+      "distance": 371.164
     },
     {
       "date": "2025-12-29",
@@ -409,7 +409,7 @@
       "level": 0,
       "column": 16,
       "lane": 2,
-      "distance": 374.174
+      "distance": 371.164
     },
     {
       "date": "2025-12-30",
@@ -417,7 +417,7 @@
       "level": 0,
       "column": 17,
       "lane": 0,
-      "distance": 397.497
+      "distance": 394.299
     },
     {
       "date": "2025-12-31",
@@ -425,7 +425,7 @@
       "level": 0,
       "column": 17,
       "lane": 1,
-      "distance": 397.497
+      "distance": 394.299
     },
     {
       "date": "2026-01-01",
@@ -433,7 +433,7 @@
       "level": 0,
       "column": 17,
       "lane": 2,
-      "distance": 397.497
+      "distance": 394.299
     },
     {
       "date": "2026-01-02",
@@ -441,7 +441,7 @@
       "level": 0,
       "column": 18,
       "lane": 0,
-      "distance": 420.82
+      "distance": 417.435
     },
     {
       "date": "2026-01-03",
@@ -449,7 +449,7 @@
       "level": 0,
       "column": 18,
       "lane": 1,
-      "distance": 420.82
+      "distance": 417.435
     },
     {
       "date": "2026-01-04",
@@ -457,7 +457,7 @@
       "level": 0,
       "column": 18,
       "lane": 2,
-      "distance": 420.82
+      "distance": 417.435
     },
     {
       "date": "2026-01-05",
@@ -465,7 +465,7 @@
       "level": 1,
       "column": 19,
       "lane": 0,
-      "distance": 444.144
+      "distance": 440.57
     },
     {
       "date": "2026-01-06",
@@ -473,7 +473,7 @@
       "level": 0,
       "column": 19,
       "lane": 1,
-      "distance": 444.144
+      "distance": 440.57
     },
     {
       "date": "2026-01-07",
@@ -481,7 +481,7 @@
       "level": 1,
       "column": 19,
       "lane": 2,
-      "distance": 444.144
+      "distance": 440.57
     },
     {
       "date": "2026-01-08",
@@ -489,7 +489,7 @@
       "level": 1,
       "column": 20,
       "lane": 0,
-      "distance": 467.467
+      "distance": 463.705
     },
     {
       "date": "2026-01-09",
@@ -497,7 +497,7 @@
       "level": 0,
       "column": 20,
       "lane": 1,
-      "distance": 467.467
+      "distance": 463.705
     },
     {
       "date": "2026-01-10",
@@ -505,7 +505,7 @@
       "level": 0,
       "column": 20,
       "lane": 2,
-      "distance": 467.467
+      "distance": 463.705
     },
     {
       "date": "2026-01-11",
@@ -513,7 +513,7 @@
       "level": 0,
       "column": 21,
       "lane": 0,
-      "distance": 490.79
+      "distance": 486.841
     },
     {
       "date": "2026-01-12",
@@ -521,7 +521,7 @@
       "level": 0,
       "column": 21,
       "lane": 1,
-      "distance": 490.79
+      "distance": 486.841
     },
     {
       "date": "2026-01-13",
@@ -529,7 +529,7 @@
       "level": 0,
       "column": 21,
       "lane": 2,
-      "distance": 490.79
+      "distance": 486.841
     },
     {
       "date": "2026-01-14",
@@ -537,7 +537,7 @@
       "level": 0,
       "column": 22,
       "lane": 0,
-      "distance": 514.114
+      "distance": 509.976
     },
     {
       "date": "2026-01-15",
@@ -545,7 +545,7 @@
       "level": 0,
       "column": 22,
       "lane": 1,
-      "distance": 514.114
+      "distance": 509.976
     },
     {
       "date": "2026-01-16",
@@ -553,7 +553,7 @@
       "level": 0,
       "column": 22,
       "lane": 2,
-      "distance": 514.114
+      "distance": 509.976
     },
     {
       "date": "2026-01-17",
@@ -561,7 +561,7 @@
       "level": 0,
       "column": 23,
       "lane": 0,
-      "distance": 537.437
+      "distance": 533.111
     },
     {
       "date": "2026-01-18",
@@ -569,7 +569,7 @@
       "level": 0,
       "column": 23,
       "lane": 1,
-      "distance": 537.437
+      "distance": 533.111
     },
     {
       "date": "2026-01-19",
@@ -577,7 +577,7 @@
       "level": 0,
       "column": 23,
       "lane": 2,
-      "distance": 537.437
+      "distance": 533.111
     },
     {
       "date": "2026-01-20",
@@ -585,7 +585,7 @@
       "level": 1,
       "column": 24,
       "lane": 0,
-      "distance": 560.761
+      "distance": 556.246
     },
     {
       "date": "2026-01-21",
@@ -593,7 +593,7 @@
       "level": 0,
       "column": 24,
       "lane": 1,
-      "distance": 560.761
+      "distance": 556.246
     },
     {
       "date": "2026-01-22",
@@ -601,7 +601,7 @@
       "level": 0,
       "column": 24,
       "lane": 2,
-      "distance": 560.761
+      "distance": 556.246
     },
     {
       "date": "2026-01-23",
@@ -609,7 +609,7 @@
       "level": 0,
       "column": 25,
       "lane": 0,
-      "distance": 584.084
+      "distance": 579.382
     },
     {
       "date": "2026-01-24",
@@ -617,7 +617,7 @@
       "level": 0,
       "column": 25,
       "lane": 1,
-      "distance": 584.084
+      "distance": 579.382
     },
     {
       "date": "2026-01-25",
@@ -625,7 +625,7 @@
       "level": 0,
       "column": 25,
       "lane": 2,
-      "distance": 584.084
+      "distance": 579.382
     },
     {
       "date": "2026-01-26",
@@ -633,7 +633,7 @@
       "level": 1,
       "column": 26,
       "lane": 0,
-      "distance": 607.407
+      "distance": 602.517
     },
     {
       "date": "2026-01-27",
@@ -641,7 +641,7 @@
       "level": 0,
       "column": 26,
       "lane": 1,
-      "distance": 607.407
+      "distance": 602.517
     },
     {
       "date": "2026-01-28",
@@ -649,7 +649,7 @@
       "level": 0,
       "column": 26,
       "lane": 2,
-      "distance": 607.407
+      "distance": 602.517
     },
     {
       "date": "2026-01-29",
@@ -657,7 +657,7 @@
       "level": 0,
       "column": 27,
       "lane": 0,
-      "distance": 630.731
+      "distance": 625.652
     },
     {
       "date": "2026-01-30",
@@ -665,7 +665,7 @@
       "level": 0,
       "column": 27,
       "lane": 1,
-      "distance": 630.731
+      "distance": 625.652
     },
     {
       "date": "2026-01-31",
@@ -673,7 +673,7 @@
       "level": 0,
       "column": 27,
       "lane": 2,
-      "distance": 630.731
+      "distance": 625.652
     },
     {
       "date": "2026-02-01",
@@ -681,7 +681,7 @@
       "level": 0,
       "column": 28,
       "lane": 0,
-      "distance": 654.054
+      "distance": 648.787
     },
     {
       "date": "2026-02-02",
@@ -689,7 +689,7 @@
       "level": 0,
       "column": 28,
       "lane": 1,
-      "distance": 654.054
+      "distance": 648.787
     },
     {
       "date": "2026-02-03",
@@ -697,7 +697,7 @@
       "level": 0,
       "column": 28,
       "lane": 2,
-      "distance": 654.054
+      "distance": 648.787
     },
     {
       "date": "2026-02-04",
@@ -705,7 +705,7 @@
       "level": 0,
       "column": 29,
       "lane": 0,
-      "distance": 677.377
+      "distance": 671.923
     },
     {
       "date": "2026-02-05",
@@ -713,7 +713,7 @@
       "level": 0,
       "column": 29,
       "lane": 1,
-      "distance": 677.377
+      "distance": 671.923
     },
     {
       "date": "2026-02-06",
@@ -721,7 +721,7 @@
       "level": 0,
       "column": 29,
       "lane": 2,
-      "distance": 677.377
+      "distance": 671.923
     },
     {
       "date": "2026-02-07",
@@ -729,7 +729,7 @@
       "level": 0,
       "column": 30,
       "lane": 0,
-      "distance": 700.701
+      "distance": 695.058
     },
     {
       "date": "2026-02-08",
@@ -737,7 +737,7 @@
       "level": 0,
       "column": 30,
       "lane": 1,
-      "distance": 700.701
+      "distance": 695.058
     },
     {
       "date": "2026-02-09",
@@ -745,7 +745,7 @@
       "level": 0,
       "column": 30,
       "lane": 2,
-      "distance": 700.701
+      "distance": 695.058
     },
     {
       "date": "2026-02-10",
@@ -753,7 +753,7 @@
       "level": 0,
       "column": 31,
       "lane": 0,
-      "distance": 724.024
+      "distance": 718.193
     },
     {
       "date": "2026-02-11",
@@ -761,7 +761,7 @@
       "level": 0,
       "column": 31,
       "lane": 1,
-      "distance": 724.024
+      "distance": 718.193
     },
     {
       "date": "2026-02-12",
@@ -769,7 +769,7 @@
       "level": 0,
       "column": 31,
       "lane": 2,
-      "distance": 724.024
+      "distance": 718.193
     },
     {
       "date": "2026-02-13",
@@ -777,7 +777,7 @@
       "level": 0,
       "column": 32,
       "lane": 0,
-      "distance": 747.347
+      "distance": 741.328
     },
     {
       "date": "2026-02-14",
@@ -785,7 +785,7 @@
       "level": 0,
       "column": 32,
       "lane": 1,
-      "distance": 747.347
+      "distance": 741.328
     },
     {
       "date": "2026-02-15",
@@ -793,7 +793,7 @@
       "level": 0,
       "column": 32,
       "lane": 2,
-      "distance": 747.347
+      "distance": 741.328
     },
     {
       "date": "2026-02-16",
@@ -801,7 +801,7 @@
       "level": 0,
       "column": 33,
       "lane": 0,
-      "distance": 770.671
+      "distance": 764.464
     },
     {
       "date": "2026-02-17",
@@ -809,7 +809,7 @@
       "level": 0,
       "column": 33,
       "lane": 1,
-      "distance": 770.671
+      "distance": 764.464
     },
     {
       "date": "2026-02-18",
@@ -817,7 +817,7 @@
       "level": 0,
       "column": 33,
       "lane": 2,
-      "distance": 770.671
+      "distance": 764.464
     },
     {
       "date": "2026-02-19",
@@ -825,7 +825,7 @@
       "level": 0,
       "column": 34,
       "lane": 0,
-      "distance": 793.994
+      "distance": 787.599
     },
     {
       "date": "2026-02-20",
@@ -833,7 +833,7 @@
       "level": 0,
       "column": 34,
       "lane": 1,
-      "distance": 793.994
+      "distance": 787.599
     },
     {
       "date": "2026-02-21",
@@ -841,7 +841,7 @@
       "level": 0,
       "column": 34,
       "lane": 2,
-      "distance": 793.994
+      "distance": 787.599
     },
     {
       "date": "2026-02-22",
@@ -849,7 +849,7 @@
       "level": 0,
       "column": 35,
       "lane": 0,
-      "distance": 817.317
+      "distance": 810.734
     },
     {
       "date": "2026-02-23",
@@ -857,7 +857,7 @@
       "level": 0,
       "column": 35,
       "lane": 1,
-      "distance": 817.317
+      "distance": 810.734
     },
     {
       "date": "2026-02-24",
@@ -865,7 +865,7 @@
       "level": 0,
       "column": 35,
       "lane": 2,
-      "distance": 817.317
+      "distance": 810.734
     },
     {
       "date": "2026-02-25",
@@ -873,7 +873,7 @@
       "level": 1,
       "column": 36,
       "lane": 0,
-      "distance": 840.641
+      "distance": 833.869
     },
     {
       "date": "2026-02-26",
@@ -881,7 +881,7 @@
       "level": 0,
       "column": 36,
       "lane": 1,
-      "distance": 840.641
+      "distance": 833.869
     },
     {
       "date": "2026-02-27",
@@ -889,7 +889,7 @@
       "level": 0,
       "column": 36,
       "lane": 2,
-      "distance": 840.641
+      "distance": 833.869
     },
     {
       "date": "2026-02-28",
@@ -897,7 +897,7 @@
       "level": 0,
       "column": 37,
       "lane": 0,
-      "distance": 863.964
+      "distance": 857.005
     },
     {
       "date": "2026-03-01",
@@ -905,7 +905,7 @@
       "level": 0,
       "column": 37,
       "lane": 1,
-      "distance": 863.964
+      "distance": 857.005
     },
     {
       "date": "2026-03-02",
@@ -913,7 +913,7 @@
       "level": 1,
       "column": 37,
       "lane": 2,
-      "distance": 863.964
+      "distance": 857.005
     },
     {
       "date": "2026-03-03",
@@ -921,7 +921,7 @@
       "level": 0,
       "column": 38,
       "lane": 0,
-      "distance": 887.287
+      "distance": 880.14
     },
     {
       "date": "2026-03-04",
@@ -929,7 +929,7 @@
       "level": 1,
       "column": 38,
       "lane": 1,
-      "distance": 887.287
+      "distance": 880.14
     },
     {
       "date": "2026-03-05",
@@ -937,7 +937,7 @@
       "level": 0,
       "column": 38,
       "lane": 2,
-      "distance": 887.287
+      "distance": 880.14
     },
     {
       "date": "2026-03-06",
@@ -945,7 +945,7 @@
       "level": 1,
       "column": 39,
       "lane": 0,
-      "distance": 910.611
+      "distance": 903.275
     },
     {
       "date": "2026-03-07",
@@ -953,7 +953,7 @@
       "level": 1,
       "column": 39,
       "lane": 1,
-      "distance": 910.611
+      "distance": 903.275
     },
     {
       "date": "2026-03-08",
@@ -961,7 +961,7 @@
       "level": 4,
       "column": 39,
       "lane": 2,
-      "distance": 910.611
+      "distance": 903.275
     },
     {
       "date": "2026-03-09",
@@ -969,7 +969,7 @@
       "level": 0,
       "column": 40,
       "lane": 0,
-      "distance": 933.934
+      "distance": 926.411
     },
     {
       "date": "2026-03-10",
@@ -977,7 +977,7 @@
       "level": 0,
       "column": 40,
       "lane": 1,
-      "distance": 933.934
+      "distance": 926.411
     },
     {
       "date": "2026-03-11",
@@ -985,7 +985,7 @@
       "level": 0,
       "column": 40,
       "lane": 2,
-      "distance": 933.934
+      "distance": 926.411
     },
     {
       "date": "2026-03-12",
@@ -993,7 +993,7 @@
       "level": 0,
       "column": 41,
       "lane": 0,
-      "distance": 957.258
+      "distance": 949.546
     },
     {
       "date": "2026-03-13",
@@ -1001,7 +1001,7 @@
       "level": 0,
       "column": 41,
       "lane": 1,
-      "distance": 957.258
+      "distance": 949.546
     },
     {
       "date": "2026-03-14",
@@ -1009,7 +1009,7 @@
       "level": 0,
       "column": 41,
       "lane": 2,
-      "distance": 957.258
+      "distance": 949.546
     },
     {
       "date": "2026-03-15",
@@ -1017,7 +1017,7 @@
       "level": 0,
       "column": 42,
       "lane": 0,
-      "distance": 980.581
+      "distance": 972.681
     },
     {
       "date": "2026-03-16",
@@ -1025,7 +1025,7 @@
       "level": 0,
       "column": 42,
       "lane": 1,
-      "distance": 980.581
+      "distance": 972.681
     },
     {
       "date": "2026-03-17",
@@ -1033,7 +1033,7 @@
       "level": 0,
       "column": 42,
       "lane": 2,
-      "distance": 980.581
+      "distance": 972.681
     },
     {
       "date": "2026-03-18",
@@ -1041,7 +1041,7 @@
       "level": 0,
       "column": 43,
       "lane": 0,
-      "distance": 1003.904
+      "distance": 995.816
     },
     {
       "date": "2026-03-19",
@@ -1049,7 +1049,7 @@
       "level": 0,
       "column": 43,
       "lane": 1,
-      "distance": 1003.904
+      "distance": 995.816
     },
     {
       "date": "2026-03-20",
@@ -1057,7 +1057,7 @@
       "level": 0,
       "column": 43,
       "lane": 2,
-      "distance": 1003.904
+      "distance": 995.816
     },
     {
       "date": "2026-03-21",
@@ -1065,7 +1065,7 @@
       "level": 0,
       "column": 44,
       "lane": 0,
-      "distance": 1027.228
+      "distance": 1018.952
     },
     {
       "date": "2026-03-22",
@@ -1073,7 +1073,7 @@
       "level": 1,
       "column": 44,
       "lane": 1,
-      "distance": 1027.228
+      "distance": 1018.952
     },
     {
       "date": "2026-03-23",
@@ -1081,7 +1081,7 @@
       "level": 0,
       "column": 44,
       "lane": 2,
-      "distance": 1027.228
+      "distance": 1018.952
     },
     {
       "date": "2026-03-24",
@@ -1089,7 +1089,7 @@
       "level": 0,
       "column": 45,
       "lane": 0,
-      "distance": 1050.551
+      "distance": 1042.087
     },
     {
       "date": "2026-03-25",
@@ -1097,7 +1097,7 @@
       "level": 0,
       "column": 45,
       "lane": 1,
-      "distance": 1050.551
+      "distance": 1042.087
     },
     {
       "date": "2026-03-26",
@@ -1105,7 +1105,7 @@
       "level": 0,
       "column": 45,
       "lane": 2,
-      "distance": 1050.551
+      "distance": 1042.087
     },
     {
       "date": "2026-03-27",
@@ -1113,7 +1113,7 @@
       "level": 0,
       "column": 46,
       "lane": 0,
-      "distance": 1073.874
+      "distance": 1065.222
     },
     {
       "date": "2026-03-28",
@@ -1121,7 +1121,7 @@
       "level": 0,
       "column": 46,
       "lane": 1,
-      "distance": 1073.874
+      "distance": 1065.222
     },
     {
       "date": "2026-03-29",
@@ -1129,7 +1129,7 @@
       "level": 0,
       "column": 46,
       "lane": 2,
-      "distance": 1073.874
+      "distance": 1065.222
     },
     {
       "date": "2026-03-30",
@@ -1137,7 +1137,7 @@
       "level": 0,
       "column": 47,
       "lane": 0,
-      "distance": 1097.198
+      "distance": 1088.357
     },
     {
       "date": "2026-03-31",
@@ -1145,7 +1145,7 @@
       "level": 0,
       "column": 47,
       "lane": 1,
-      "distance": 1097.198
+      "distance": 1088.357
     },
     {
       "date": "2026-04-01",
@@ -1153,7 +1153,7 @@
       "level": 0,
       "column": 47,
       "lane": 2,
-      "distance": 1097.198
+      "distance": 1088.357
     },
     {
       "date": "2026-04-02",
@@ -1161,7 +1161,7 @@
       "level": 0,
       "column": 48,
       "lane": 0,
-      "distance": 1120.521
+      "distance": 1111.493
     },
     {
       "date": "2026-04-03",
@@ -1169,7 +1169,7 @@
       "level": 0,
       "column": 48,
       "lane": 1,
-      "distance": 1120.521
+      "distance": 1111.493
     },
     {
       "date": "2026-04-04",
@@ -1177,7 +1177,7 @@
       "level": 0,
       "column": 48,
       "lane": 2,
-      "distance": 1120.521
+      "distance": 1111.493
     },
     {
       "date": "2026-04-05",
@@ -1185,7 +1185,7 @@
       "level": 0,
       "column": 49,
       "lane": 0,
-      "distance": 1143.844
+      "distance": 1134.628
     },
     {
       "date": "2026-04-06",
@@ -1193,7 +1193,7 @@
       "level": 0,
       "column": 49,
       "lane": 1,
-      "distance": 1143.844
+      "distance": 1134.628
     },
     {
       "date": "2026-04-07",
@@ -1201,7 +1201,7 @@
       "level": 0,
       "column": 49,
       "lane": 2,
-      "distance": 1143.844
+      "distance": 1134.628
     },
     {
       "date": "2026-04-08",
@@ -1209,7 +1209,7 @@
       "level": 0,
       "column": 50,
       "lane": 0,
-      "distance": 1167.168
+      "distance": 1157.763
     },
     {
       "date": "2026-04-09",
@@ -1217,7 +1217,7 @@
       "level": 1,
       "column": 50,
       "lane": 1,
-      "distance": 1167.168
+      "distance": 1157.763
     },
     {
       "date": "2026-04-10",
@@ -1225,7 +1225,7 @@
       "level": 0,
       "column": 50,
       "lane": 2,
-      "distance": 1167.168
+      "distance": 1157.763
     },
     {
       "date": "2026-04-11",
@@ -1233,7 +1233,7 @@
       "level": 1,
       "column": 51,
       "lane": 0,
-      "distance": 1190.491
+      "distance": 1180.898
     },
     {
       "date": "2026-04-12",
@@ -1241,7 +1241,7 @@
       "level": 0,
       "column": 51,
       "lane": 1,
-      "distance": 1190.491
+      "distance": 1180.898
     },
     {
       "date": "2026-04-13",
@@ -1249,7 +1249,7 @@
       "level": 1,
       "column": 51,
       "lane": 2,
-      "distance": 1190.491
+      "distance": 1180.898
     },
     {
       "date": "2026-04-14",
@@ -1257,7 +1257,7 @@
       "level": 1,
       "column": 52,
       "lane": 0,
-      "distance": 1213.814
+      "distance": 1204.034
     },
     {
       "date": "2026-04-15",
@@ -1265,7 +1265,7 @@
       "level": 0,
       "column": 52,
       "lane": 1,
-      "distance": 1213.814
+      "distance": 1204.034
     },
     {
       "date": "2026-04-16",
@@ -1273,7 +1273,7 @@
       "level": 1,
       "column": 52,
       "lane": 2,
-      "distance": 1213.814
+      "distance": 1204.034
     },
     {
       "date": "2026-04-17",
@@ -1281,7 +1281,7 @@
       "level": 1,
       "column": 53,
       "lane": 0,
-      "distance": 1237.138
+      "distance": 1227.169
     },
     {
       "date": "2026-04-18",
@@ -1289,7 +1289,7 @@
       "level": 1,
       "column": 53,
       "lane": 1,
-      "distance": 1237.138
+      "distance": 1227.169
     },
     {
       "date": "2026-04-19",
@@ -1297,7 +1297,7 @@
       "level": 0,
       "column": 53,
       "lane": 2,
-      "distance": 1237.138
+      "distance": 1227.169
     },
     {
       "date": "2026-04-20",
@@ -1305,7 +1305,7 @@
       "level": 0,
       "column": 54,
       "lane": 0,
-      "distance": 1260.461
+      "distance": 1250.304
     },
     {
       "date": "2026-04-21",
@@ -1313,7 +1313,7 @@
       "level": 0,
       "column": 54,
       "lane": 1,
-      "distance": 1260.461
+      "distance": 1250.304
     },
     {
       "date": "2026-04-22",
@@ -1321,7 +1321,7 @@
       "level": 0,
       "column": 54,
       "lane": 2,
-      "distance": 1260.461
+      "distance": 1250.304
     },
     {
       "date": "2026-04-23",
@@ -1329,7 +1329,7 @@
       "level": 0,
       "column": 55,
       "lane": 0,
-      "distance": 1283.785
+      "distance": 1273.439
     },
     {
       "date": "2026-04-24",
@@ -1337,7 +1337,7 @@
       "level": 0,
       "column": 55,
       "lane": 1,
-      "distance": 1283.785
+      "distance": 1273.439
     },
     {
       "date": "2026-04-25",
@@ -1345,7 +1345,7 @@
       "level": 0,
       "column": 55,
       "lane": 2,
-      "distance": 1283.785
+      "distance": 1273.439
     },
     {
       "date": "2026-04-26",
@@ -1353,7 +1353,7 @@
       "level": 0,
       "column": 56,
       "lane": 0,
-      "distance": 1307.108
+      "distance": 1296.575
     },
     {
       "date": "2026-04-27",
@@ -1361,7 +1361,7 @@
       "level": 0,
       "column": 56,
       "lane": 1,
-      "distance": 1307.108
+      "distance": 1296.575
     },
     {
       "date": "2026-04-28",
@@ -1369,7 +1369,7 @@
       "level": 2,
       "column": 56,
       "lane": 2,
-      "distance": 1307.108
+      "distance": 1296.575
     },
     {
       "date": "2026-04-29",
@@ -1377,7 +1377,7 @@
       "level": 3,
       "column": 57,
       "lane": 0,
-      "distance": 1330.431
+      "distance": 1319.71
     },
     {
       "date": "2026-04-30",
@@ -1385,7 +1385,7 @@
       "level": 4,
       "column": 57,
       "lane": 1,
-      "distance": 1330.431
+      "distance": 1319.71
     },
     {
       "date": "2026-05-01",
@@ -1393,7 +1393,7 @@
       "level": 3,
       "column": 57,
       "lane": 2,
-      "distance": 1330.431
+      "distance": 1319.71
     },
     {
       "date": "2026-05-02",
@@ -1401,7 +1401,7 @@
       "level": 2,
       "column": 58,
       "lane": 0,
-      "distance": 1353.755
+      "distance": 1342.845
     },
     {
       "date": "2026-05-03",
@@ -1409,7 +1409,7 @@
       "level": 1,
       "column": 58,
       "lane": 1,
-      "distance": 1353.755
+      "distance": 1342.845
     },
     {
       "date": "2026-05-04",
@@ -1417,7 +1417,7 @@
       "level": 0,
       "column": 58,
       "lane": 2,
-      "distance": 1353.755
+      "distance": 1342.845
     },
     {
       "date": "2026-05-05",
@@ -1425,7 +1425,7 @@
       "level": 2,
       "column": 59,
       "lane": 0,
-      "distance": 1377.078
+      "distance": 1365.981
     },
     {
       "date": "2026-05-06",
@@ -1433,7 +1433,7 @@
       "level": 1,
       "column": 59,
       "lane": 1,
-      "distance": 1377.078
+      "distance": 1365.981
     },
     {
       "date": "2026-05-07",
@@ -1441,7 +1441,7 @@
       "level": 2,
       "column": 59,
       "lane": 2,
-      "distance": 1377.078
+      "distance": 1365.981
     },
     {
       "date": "2026-05-08",
@@ -1449,7 +1449,7 @@
       "level": 0,
       "column": 60,
       "lane": 0,
-      "distance": 1400.401
+      "distance": 1389.116
     },
     {
       "date": "2026-05-09",
@@ -1457,7 +1457,7 @@
       "level": 2,
       "column": 60,
       "lane": 1,
-      "distance": 1400.401
+      "distance": 1389.116
     },
     {
       "date": "2026-05-10",
@@ -1465,7 +1465,7 @@
       "level": 3,
       "column": 60,
       "lane": 2,
-      "distance": 1400.401
+      "distance": 1389.116
     },
     {
       "date": "2026-05-11",
@@ -1473,7 +1473,7 @@
       "level": 2,
       "column": 61,
       "lane": 0,
-      "distance": 1423.725
+      "distance": 1412.251
     },
     {
       "date": "2026-05-12",
@@ -1481,7 +1481,7 @@
       "level": 3,
       "column": 61,
       "lane": 1,
-      "distance": 1423.725
+      "distance": 1412.251
     },
     {
       "date": "2026-05-13",
@@ -1489,7 +1489,7 @@
       "level": 2,
       "column": 61,
       "lane": 2,
-      "distance": 1423.725
+      "distance": 1412.251
     },
     {
       "date": "2026-05-14",
@@ -1497,7 +1497,7 @@
       "level": 0,
       "column": 62,
       "lane": 0,
-      "distance": 1447.048
+      "distance": 1435.386
     },
     {
       "date": "2026-05-15",
@@ -1505,7 +1505,7 @@
       "level": 0,
       "column": 62,
       "lane": 1,
-      "distance": 1447.048
+      "distance": 1435.386
     },
     {
       "date": "2026-05-16",
@@ -1513,7 +1513,7 @@
       "level": 1,
       "column": 62,
       "lane": 2,
-      "distance": 1447.048
+      "distance": 1435.386
     },
     {
       "date": "2026-05-17",
@@ -1521,7 +1521,7 @@
       "level": 1,
       "column": 63,
       "lane": 0,
-      "distance": 1470.371
+      "distance": 1458.522
     },
     {
       "date": "2026-05-18",
@@ -1529,7 +1529,7 @@
       "level": 1,
       "column": 63,
       "lane": 1,
-      "distance": 1470.371
+      "distance": 1458.522
     },
     {
       "date": "2026-05-19",
@@ -1537,7 +1537,7 @@
       "level": 2,
       "column": 63,
       "lane": 2,
-      "distance": 1470.371
+      "distance": 1458.522
     },
     {
       "date": "2026-05-20",
@@ -1545,7 +1545,7 @@
       "level": 1,
       "column": 64,
       "lane": 0,
-      "distance": 1493.695
+      "distance": 1481.657
     },
     {
       "date": "2026-05-21",
@@ -1553,7 +1553,7 @@
       "level": 1,
       "column": 64,
       "lane": 1,
-      "distance": 1493.695
+      "distance": 1481.657
     },
     {
       "date": "2026-05-22",
@@ -1561,7 +1561,7 @@
       "level": 1,
       "column": 64,
       "lane": 2,
-      "distance": 1493.695
+      "distance": 1481.657
     },
     {
       "date": "2026-05-23",
@@ -1569,7 +1569,7 @@
       "level": 1,
       "column": 65,
       "lane": 0,
-      "distance": 1517.018
+      "distance": 1504.792
     },
     {
       "date": "2026-05-24",
@@ -1577,7 +1577,7 @@
       "level": 0,
       "column": 65,
       "lane": 1,
-      "distance": 1517.018
+      "distance": 1504.792
     },
     {
       "date": "2026-05-25",
@@ -1585,7 +1585,7 @@
       "level": 1,
       "column": 65,
       "lane": 2,
-      "distance": 1517.018
+      "distance": 1504.792
     },
     {
       "date": "2026-05-26",
@@ -1593,7 +1593,7 @@
       "level": 3,
       "column": 66,
       "lane": 0,
-      "distance": 1540.341
+      "distance": 1527.927
     },
     {
       "date": "2026-05-27",
@@ -1601,7 +1601,7 @@
       "level": 1,
       "column": 66,
       "lane": 1,
-      "distance": 1540.341
+      "distance": 1527.927
     },
     {
       "date": "2026-05-28",
@@ -1609,7 +1609,7 @@
       "level": 0,
       "column": 66,
       "lane": 2,
-      "distance": 1540.341
+      "distance": 1527.927
     },
     {
       "date": "2026-05-29",
@@ -1617,7 +1617,7 @@
       "level": 2,
       "column": 67,
       "lane": 0,
-      "distance": 1563.665
+      "distance": 1551.063
     },
     {
       "date": "2026-05-30",
@@ -1625,7 +1625,7 @@
       "level": 0,
       "column": 67,
       "lane": 1,
-      "distance": 1563.665
+      "distance": 1551.063
     },
     {
       "date": "2026-05-31",
@@ -1633,7 +1633,7 @@
       "level": 1,
       "column": 67,
       "lane": 2,
-      "distance": 1563.665
+      "distance": 1551.063
     },
     {
       "date": "2026-06-01",
@@ -1641,7 +1641,7 @@
       "level": 1,
       "column": 68,
       "lane": 0,
-      "distance": 1586.988
+      "distance": 1574.198
     },
     {
       "date": "2026-06-02",
@@ -1649,7 +1649,7 @@
       "level": 3,
       "column": 68,
       "lane": 1,
-      "distance": 1586.988
+      "distance": 1574.198
     },
     {
       "date": "2026-06-03",
@@ -1657,7 +1657,7 @@
       "level": 1,
       "column": 68,
       "lane": 2,
-      "distance": 1586.988
+      "distance": 1574.198
     },
     {
       "date": "2026-06-04",
@@ -1665,7 +1665,7 @@
       "level": 0,
       "column": 69,
       "lane": 0,
-      "distance": 1610.311
+      "distance": 1597.333
     },
     {
       "date": "2026-06-05",
@@ -1673,7 +1673,7 @@
       "level": 0,
       "column": 69,
       "lane": 1,
-      "distance": 1610.311
+      "distance": 1597.333
     },
     {
       "date": "2026-06-06",
@@ -1681,7 +1681,7 @@
       "level": 0,
       "column": 69,
       "lane": 2,
-      "distance": 1610.311
+      "distance": 1597.333
     },
     {
       "date": "2026-06-07",
@@ -1689,7 +1689,7 @@
       "level": 0,
       "column": 70,
       "lane": 0,
-      "distance": 1633.635
+      "distance": 1620.468
     },
     {
       "date": "2026-06-08",
@@ -1697,7 +1697,7 @@
       "level": 0,
       "column": 70,
       "lane": 1,
-      "distance": 1633.635
+      "distance": 1620.468
     },
     {
       "date": "2026-06-09",
@@ -1705,7 +1705,7 @@
       "level": 2,
       "column": 70,
       "lane": 2,
-      "distance": 1633.635
+      "distance": 1620.468
     },
     {
       "date": "2026-06-10",
@@ -1713,7 +1713,7 @@
       "level": 1,
       "column": 71,
       "lane": 0,
-      "distance": 1656.958
+      "distance": 1643.604
     },
     {
       "date": "2026-06-11",
@@ -1721,7 +1721,7 @@
       "level": 0,
       "column": 71,
       "lane": 1,
-      "distance": 1656.958
+      "distance": 1643.604
     },
     {
       "date": "2026-06-12",
@@ -1729,7 +1729,7 @@
       "level": 0,
       "column": 71,
       "lane": 2,
-      "distance": 1656.958
+      "distance": 1643.604
     },
     {
       "date": "2026-06-13",
@@ -1737,7 +1737,7 @@
       "level": 0,
       "column": 72,
       "lane": 0,
-      "distance": 1680.282
+      "distance": 1666.739
     },
     {
       "date": "2026-06-14",
@@ -1745,7 +1745,7 @@
       "level": 0,
       "column": 72,
       "lane": 1,
-      "distance": 1680.282
+      "distance": 1666.739
     },
     {
       "date": "2026-06-15",
@@ -1753,7 +1753,7 @@
       "level": 0,
       "column": 72,
       "lane": 2,
-      "distance": 1680.282
+      "distance": 1666.739
     },
     {
       "date": "2026-06-16",
@@ -1761,7 +1761,7 @@
       "level": 0,
       "column": 73,
       "lane": 0,
-      "distance": 1703.605
+      "distance": 1689.874
     },
     {
       "date": "2026-06-17",
@@ -1769,7 +1769,7 @@
       "level": 0,
       "column": 73,
       "lane": 1,
-      "distance": 1703.605
+      "distance": 1689.874
     },
     {
       "date": "2026-06-18",
@@ -1777,7 +1777,7 @@
       "level": 0,
       "column": 73,
       "lane": 2,
-      "distance": 1703.605
+      "distance": 1689.874
     },
     {
       "date": "2026-06-19",
@@ -1785,7 +1785,7 @@
       "level": 0,
       "column": 74,
       "lane": 0,
-      "distance": 1726.928
+      "distance": 1713.009
     },
     {
       "date": "2026-06-20",
@@ -1793,7 +1793,7 @@
       "level": 3,
       "column": 74,
       "lane": 1,
-      "distance": 1726.928
+      "distance": 1713.009
     },
     {
       "date": "2026-06-21",
@@ -1801,7 +1801,7 @@
       "level": 2,
       "column": 74,
       "lane": 2,
-      "distance": 1726.928
+      "distance": 1713.009
     },
     {
       "date": "2026-06-22",
@@ -1809,7 +1809,7 @@
       "level": 0,
       "column": 75,
       "lane": 0,
-      "distance": 1750.252
+      "distance": 1736.145
     },
     {
       "date": "2026-06-23",
@@ -1817,7 +1817,7 @@
       "level": 0,
       "column": 75,
       "lane": 1,
-      "distance": 1750.252
+      "distance": 1736.145
     },
     {
       "date": "2026-06-24",
@@ -1825,7 +1825,7 @@
       "level": 0,
       "column": 75,
       "lane": 2,
-      "distance": 1750.252
+      "distance": 1736.145
     },
     {
       "date": "2026-06-25",
@@ -1833,7 +1833,7 @@
       "level": 0,
       "column": 76,
       "lane": 0,
-      "distance": 1773.575
+      "distance": 1759.28
     },
     {
       "date": "2026-06-26",
@@ -1841,7 +1841,7 @@
       "level": 0,
       "column": 76,
       "lane": 1,
-      "distance": 1773.575
+      "distance": 1759.28
     },
     {
       "date": "2026-06-27",
@@ -1849,7 +1849,7 @@
       "level": 0,
       "column": 76,
       "lane": 2,
-      "distance": 1773.575
+      "distance": 1759.28
     },
     {
       "date": "2026-06-28",
@@ -1857,7 +1857,7 @@
       "level": 0,
       "column": 77,
       "lane": 0,
-      "distance": 1796.898
+      "distance": 1782.415
     },
     {
       "date": "2026-06-29",
@@ -1865,7 +1865,7 @@
       "level": 0,
       "column": 77,
       "lane": 1,
-      "distance": 1796.898
+      "distance": 1782.415
     },
     {
       "date": "2026-06-30",
@@ -1873,7 +1873,7 @@
       "level": 0,
       "column": 77,
       "lane": 2,
-      "distance": 1796.898
+      "distance": 1782.415
     },
     {
       "date": "2026-07-01",
@@ -1881,7 +1881,7 @@
       "level": 0,
       "column": 78,
       "lane": 0,
-      "distance": 1820.222
+      "distance": 1805.551
     },
     {
       "date": "2026-07-02",
@@ -1889,7 +1889,7 @@
       "level": 0,
       "column": 78,
       "lane": 1,
-      "distance": 1820.222
+      "distance": 1805.551
     },
     {
       "date": "2026-07-03",
@@ -1897,7 +1897,7 @@
       "level": 0,
       "column": 78,
       "lane": 2,
-      "distance": 1820.222
+      "distance": 1805.551
     },
     {
       "date": "2026-07-04",
@@ -1905,7 +1905,7 @@
       "level": 0,
       "column": 79,
       "lane": 0,
-      "distance": 1843.545
+      "distance": 1828.686
     },
     {
       "date": "2026-07-05",
@@ -1913,7 +1913,7 @@
       "level": 0,
       "column": 79,
       "lane": 1,
-      "distance": 1843.545
+      "distance": 1828.686
     },
     {
       "date": "2026-07-06",
@@ -1921,7 +1921,7 @@
       "level": 0,
       "column": 79,
       "lane": 2,
-      "distance": 1843.545
+      "distance": 1828.686
     },
     {
       "date": "2026-07-07",
@@ -1929,7 +1929,7 @@
       "level": 0,
       "column": 80,
       "lane": 0,
-      "distance": 1866.868
+      "distance": 1851.821
     },
     {
       "date": "2026-07-08",
@@ -1937,7 +1937,7 @@
       "level": 0,
       "column": 80,
       "lane": 1,
-      "distance": 1866.868
+      "distance": 1851.821
     },
     {
       "date": "2026-07-09",
@@ -1945,7 +1945,7 @@
       "level": 0,
       "column": 80,
       "lane": 2,
-      "distance": 1866.868
+      "distance": 1851.821
     },
     {
       "date": "2026-07-10",
@@ -1953,7 +1953,7 @@
       "level": 0,
       "column": 81,
       "lane": 0,
-      "distance": 1890.192
+      "distance": 1874.956
     },
     {
       "date": "2026-07-11",
@@ -1961,7 +1961,7 @@
       "level": 0,
       "column": 81,
       "lane": 1,
-      "distance": 1890.192
+      "distance": 1874.956
     },
     {
       "date": "2026-07-12",
@@ -1969,7 +1969,7 @@
       "level": 0,
       "column": 81,
       "lane": 2,
-      "distance": 1890.192
+      "distance": 1874.956
     },
     {
       "date": "2026-07-13",
@@ -1977,7 +1977,7 @@
       "level": 0,
       "column": 82,
       "lane": 0,
-      "distance": 1913.515
+      "distance": 1898.092
     },
     {
       "date": "2026-07-14",
@@ -1985,7 +1985,7 @@
       "level": 0,
       "column": 82,
       "lane": 1,
-      "distance": 1913.515
+      "distance": 1898.092
     },
     {
       "date": "2026-07-15",
@@ -1993,7 +1993,7 @@
       "level": 0,
       "column": 82,
       "lane": 2,
-      "distance": 1913.515
+      "distance": 1898.092
     },
     {
       "date": "2026-07-16",
@@ -2001,7 +2001,7 @@
       "level": 0,
       "column": 83,
       "lane": 0,
-      "distance": 1936.838
+      "distance": 1921.227
     },
     {
       "date": "2026-07-17",
@@ -2009,7 +2009,7 @@
       "level": 0,
       "column": 83,
       "lane": 1,
-      "distance": 1936.838
+      "distance": 1921.227
     },
     {
       "date": "2026-07-18",
@@ -2017,7 +2017,7 @@
       "level": 0,
       "column": 83,
       "lane": 2,
-      "distance": 1936.838
+      "distance": 1921.227
     },
     {
       "date": "2026-07-19",
@@ -2025,7 +2025,7 @@
       "level": 1,
       "column": 84,
       "lane": 0,
-      "distance": 1960.162
+      "distance": 1944.362
     },
     {
       "date": "2026-07-20",
@@ -2033,7 +2033,7 @@
       "level": 3,
       "column": 84,
       "lane": 1,
-      "distance": 1960.162
+      "distance": 1944.362
     },
     {
       "date": "2026-07-21",
@@ -2041,7 +2041,7 @@
       "level": 2,
       "column": 84,
       "lane": 2,
-      "distance": 1960.162
+      "distance": 1944.362
     },
     {
       "date": "2026-07-22",
@@ -2049,7 +2049,7 @@
       "level": 0,
       "column": 85,
       "lane": 0,
-      "distance": 1983.485
+      "distance": 1967.497
     },
     {
       "date": "2026-07-23",
@@ -2057,7 +2057,7 @@
       "level": 0,
       "column": 85,
       "lane": 1,
-      "distance": 1983.485
+      "distance": 1967.497
     },
     {
       "date": "2026-07-24",
@@ -2065,7 +2065,7 @@
       "level": 0,
       "column": 85,
       "lane": 2,
-      "distance": 1983.485
+      "distance": 1967.497
     },
     {
       "date": "2026-07-25",
@@ -2073,7 +2073,7 @@
       "level": 0,
       "column": 86,
       "lane": 0,
-      "distance": 2006.809
+      "distance": 1990.633
     },
     {
       "date": "2026-07-26",
@@ -2081,7 +2081,7 @@
       "level": 0,
       "column": 86,
       "lane": 1,
-      "distance": 2006.809
+      "distance": 1990.633
     },
     {
       "date": "2026-07-27",
@@ -2089,7 +2089,7 @@
       "level": 0,
       "column": 86,
       "lane": 2,
-      "distance": 2006.809
+      "distance": 1990.633
     },
     {
       "date": "2026-07-28",
@@ -2097,7 +2097,7 @@
       "level": 1,
       "column": 87,
       "lane": 0,
-      "distance": 2030.132
+      "distance": 2013.768
     },
     {
       "date": "2026-07-29",
@@ -2105,7 +2105,7 @@
       "level": 0,
       "column": 87,
       "lane": 1,
-      "distance": 2030.132
+      "distance": 2013.768
     },
     {
       "date": "2026-07-30",
@@ -2113,7 +2113,7 @@
       "level": 0,
       "column": 87,
       "lane": 2,
-      "distance": 2030.132
+      "distance": 2013.768
     },
     {
       "date": "2026-07-31",
@@ -2121,7 +2121,7 @@
       "level": 0,
       "column": 88,
       "lane": 0,
-      "distance": 2053.455
+      "distance": 2036.903
     },
     {
       "date": "2026-08-01",
@@ -2129,7 +2129,7 @@
       "level": 0,
       "column": 88,
       "lane": 1,
-      "distance": 2053.455
+      "distance": 2036.903
     },
     {
       "date": "2026-08-02",
@@ -2137,7 +2137,7 @@
       "level": 0,
       "column": 88,
       "lane": 2,
-      "distance": 2053.455
+      "distance": 2036.903
     },
     {
       "date": "2026-08-03",
@@ -2145,7 +2145,7 @@
       "level": 0,
       "column": 89,
       "lane": 0,
-      "distance": 2076.779
+      "distance": 2060.038
     },
     {
       "date": "2026-08-04",
@@ -2153,7 +2153,7 @@
       "level": 0,
       "column": 89,
       "lane": 1,
-      "distance": 2076.779
+      "distance": 2060.038
     },
     {
       "date": "2026-08-05",
@@ -2161,7 +2161,7 @@
       "level": 0,
       "column": 89,
       "lane": 2,
-      "distance": 2076.779
+      "distance": 2060.038
     },
     {
       "date": "2026-08-06",
@@ -2169,7 +2169,7 @@
       "level": 0,
       "column": 90,
       "lane": 0,
-      "distance": 2100.102
+      "distance": 2083.174
     },
     {
       "date": "2026-08-07",
@@ -2177,7 +2177,7 @@
       "level": 0,
       "column": 90,
       "lane": 1,
-      "distance": 2100.102
+      "distance": 2083.174
     },
     {
       "date": "2026-08-08",
@@ -2185,7 +2185,7 @@
       "level": 0,
       "column": 90,
       "lane": 2,
-      "distance": 2100.102
+      "distance": 2083.174
     },
     {
       "date": "2026-08-09",
@@ -2193,7 +2193,7 @@
       "level": 0,
       "column": 91,
       "lane": 0,
-      "distance": 2123.425
+      "distance": 2106.309
     },
     {
       "date": "2026-08-10",
@@ -2201,7 +2201,7 @@
       "level": 0,
       "column": 91,
       "lane": 1,
-      "distance": 2123.425
+      "distance": 2106.309
     },
     {
       "date": "2026-08-11",
@@ -2209,7 +2209,7 @@
       "level": 0,
       "column": 91,
       "lane": 2,
-      "distance": 2123.425
+      "distance": 2106.309
     },
     {
       "date": "2026-08-12",
@@ -2217,7 +2217,7 @@
       "level": 0,
       "column": 92,
       "lane": 0,
-      "distance": 2146.749
+      "distance": 2129.444
     },
     {
       "date": "2026-08-13",
@@ -2225,7 +2225,7 @@
       "level": 0,
       "column": 92,
       "lane": 1,
-      "distance": 2146.749
+      "distance": 2129.444
     },
     {
       "date": "2026-08-14",
@@ -2233,7 +2233,7 @@
       "level": 0,
       "column": 92,
       "lane": 2,
-      "distance": 2146.749
+      "distance": 2129.444
     },
     {
       "date": "2026-08-15",
@@ -2241,7 +2241,7 @@
       "level": 0,
       "column": 93,
       "lane": 0,
-      "distance": 2170.072
+      "distance": 2152.579
     },
     {
       "date": "2026-08-16",
@@ -2249,7 +2249,7 @@
       "level": 0,
       "column": 93,
       "lane": 1,
-      "distance": 2170.072
+      "distance": 2152.579
     },
     {
       "date": "2026-08-17",
@@ -2257,7 +2257,7 @@
       "level": 0,
       "column": 93,
       "lane": 2,
-      "distance": 2170.072
+      "distance": 2152.579
     },
     {
       "date": "2026-08-18",
@@ -2265,7 +2265,7 @@
       "level": 0,
       "column": 94,
       "lane": 0,
-      "distance": 2193.395
+      "distance": 2175.715
     },
     {
       "date": "2026-08-19",
@@ -2273,7 +2273,7 @@
       "level": 0,
       "column": 94,
       "lane": 1,
-      "distance": 2193.395
+      "distance": 2175.715
     },
     {
       "date": "2026-08-20",
@@ -2281,7 +2281,7 @@
       "level": 0,
       "column": 94,
       "lane": 2,
-      "distance": 2193.395
+      "distance": 2175.715
     },
     {
       "date": "2026-08-21",
@@ -2289,7 +2289,7 @@
       "level": 0,
       "column": 95,
       "lane": 0,
-      "distance": 2216.719
+      "distance": 2198.85
     },
     {
       "date": "2026-08-22",
@@ -2297,7 +2297,7 @@
       "level": 0,
       "column": 95,
       "lane": 1,
-      "distance": 2216.719
+      "distance": 2198.85
     },
     {
       "date": "2026-08-23",
@@ -2305,7 +2305,7 @@
       "level": 0,
       "column": 95,
       "lane": 2,
-      "distance": 2216.719
+      "distance": 2198.85
     },
     {
       "date": "2026-08-24",
@@ -2313,7 +2313,7 @@
       "level": 0,
       "column": 96,
       "lane": 0,
-      "distance": 2240.042
+      "distance": 2221.985
     },
     {
       "date": "2026-08-25",
@@ -2321,7 +2321,7 @@
       "level": 0,
       "column": 96,
       "lane": 1,
-      "distance": 2240.042
+      "distance": 2221.985
     },
     {
       "date": "2026-08-26",
@@ -2329,7 +2329,7 @@
       "level": 0,
       "column": 96,
       "lane": 2,
-      "distance": 2240.042
+      "distance": 2221.985
     },
     {
       "date": "2026-08-27",
@@ -2337,7 +2337,7 @@
       "level": 0,
       "column": 97,
       "lane": 0,
-      "distance": 2263.365
+      "distance": 2245.121
     },
     {
       "date": "2026-08-28",
@@ -2345,7 +2345,7 @@
       "level": 0,
       "column": 97,
       "lane": 1,
-      "distance": 2263.365
+      "distance": 2245.121
     },
     {
       "date": "2026-08-29",
@@ -2353,7 +2353,7 @@
       "level": 0,
       "column": 97,
       "lane": 2,
-      "distance": 2263.365
+      "distance": 2245.121
     },
     {
       "date": "2026-08-30",
@@ -2361,7 +2361,7 @@
       "level": 0,
       "column": 98,
       "lane": 0,
-      "distance": 2286.689
+      "distance": 2268.256
     },
     {
       "date": "2026-08-31",
@@ -2369,7 +2369,7 @@
       "level": 0,
       "column": 98,
       "lane": 1,
-      "distance": 2286.689
+      "distance": 2268.256
     },
     {
       "date": "2026-09-01",
@@ -2377,7 +2377,7 @@
       "level": 0,
       "column": 98,
       "lane": 2,
-      "distance": 2286.689
+      "distance": 2268.256
     },
     {
       "date": "2026-09-02",
@@ -2385,7 +2385,7 @@
       "level": 0,
       "column": 99,
       "lane": 0,
-      "distance": 2310.012
+      "distance": 2291.391
     },
     {
       "date": "2026-09-03",
@@ -2393,7 +2393,7 @@
       "level": 0,
       "column": 99,
       "lane": 1,
-      "distance": 2310.012
+      "distance": 2291.391
     },
     {
       "date": "2026-09-04",
@@ -2401,7 +2401,7 @@
       "level": 0,
       "column": 99,
       "lane": 2,
-      "distance": 2310.012
+      "distance": 2291.391
     },
     {
       "date": "2026-09-05",
@@ -2409,7 +2409,7 @@
       "level": 0,
       "column": 100,
       "lane": 0,
-      "distance": 2333.335
+      "distance": 2314.526
     },
     {
       "date": "2026-09-06",
@@ -2417,7 +2417,7 @@
       "level": 0,
       "column": 100,
       "lane": 1,
-      "distance": 2333.335
+      "distance": 2314.526
     },
     {
       "date": "2026-09-07",
@@ -2425,7 +2425,7 @@
       "level": 0,
       "column": 100,
       "lane": 2,
-      "distance": 2333.335
+      "distance": 2314.526
     },
     {
       "date": "2026-09-08",
@@ -2433,7 +2433,7 @@
       "level": 2,
       "column": 101,
       "lane": 0,
-      "distance": 2356.659
+      "distance": 2337.662
     },
     {
       "date": "2026-09-09",
@@ -2441,7 +2441,7 @@
       "level": 3,
       "column": 101,
       "lane": 1,
-      "distance": 2356.659
+      "distance": 2337.662
     },
     {
       "date": "2026-09-10",
@@ -2449,7 +2449,7 @@
       "level": 2,
       "column": 101,
       "lane": 2,
-      "distance": 2356.659
+      "distance": 2337.662
     },
     {
       "date": "2026-09-11",
@@ -2457,7 +2457,7 @@
       "level": 2,
       "column": 102,
       "lane": 0,
-      "distance": 2379.982
+      "distance": 2360.797
     },
     {
       "date": "2026-09-12",
@@ -2465,7 +2465,7 @@
       "level": 1,
       "column": 102,
       "lane": 1,
-      "distance": 2379.982
+      "distance": 2360.797
     },
     {
       "date": "2026-09-13",
@@ -2473,7 +2473,7 @@
       "level": 1,
       "column": 102,
       "lane": 2,
-      "distance": 2379.982
+      "distance": 2360.797
     },
     {
       "date": "2026-09-14",
@@ -2481,7 +2481,7 @@
       "level": 1,
       "column": 103,
       "lane": 0,
-      "distance": 2403.306
+      "distance": 2383.932
     },
     {
       "date": "2026-09-15",
@@ -2489,7 +2489,7 @@
       "level": 1,
       "column": 103,
       "lane": 1,
-      "distance": 2403.306
+      "distance": 2383.932
     },
     {
       "date": "2026-09-16",
@@ -2497,7 +2497,7 @@
       "level": 0,
       "column": 103,
       "lane": 2,
-      "distance": 2403.306
+      "distance": 2383.932
     },
     {
       "date": "2026-09-17",
@@ -2505,7 +2505,7 @@
       "level": 1,
       "column": 104,
       "lane": 0,
-      "distance": 2426.629
+      "distance": 2407.067
     },
     {
       "date": "2026-09-18",
@@ -2513,7 +2513,7 @@
       "level": 1,
       "column": 104,
       "lane": 1,
-      "distance": 2426.629
+      "distance": 2407.067
     },
     {
       "date": "2026-09-19",
@@ -2521,7 +2521,7 @@
       "level": 1,
       "column": 104,
       "lane": 2,
-      "distance": 2426.629
+      "distance": 2407.067
     },
     {
       "date": "2026-09-20",
@@ -2529,7 +2529,7 @@
       "level": 1,
       "column": 105,
       "lane": 0,
-      "distance": 2449.952
+      "distance": 2430.203
     },
     {
       "date": "2026-09-21",
@@ -2537,7 +2537,7 @@
       "level": 1,
       "column": 105,
       "lane": 1,
-      "distance": 2449.952
+      "distance": 2430.203
     },
     {
       "date": "2026-09-22",
@@ -2545,7 +2545,7 @@
       "level": 0,
       "column": 105,
       "lane": 2,
-      "distance": 2449.952
+      "distance": 2430.203
     },
     {
       "date": "2026-09-23",
@@ -2553,7 +2553,7 @@
       "level": 3,
       "column": 106,
       "lane": 0,
-      "distance": 2473.276
+      "distance": 2453.338
     },
     {
       "date": "2026-09-24",
@@ -2561,7 +2561,7 @@
       "level": 1,
       "column": 106,
       "lane": 1,
-      "distance": 2473.276
+      "distance": 2453.338
     },
     {
       "date": "2026-09-25",
@@ -2569,7 +2569,7 @@
       "level": 0,
       "column": 106,
       "lane": 2,
-      "distance": 2473.276
+      "distance": 2453.338
     },
     {
       "date": "2026-09-26",
@@ -2577,7 +2577,7 @@
       "level": 1,
       "column": 107,
       "lane": 0,
-      "distance": 2496.599
+      "distance": 2476.473
     },
     {
       "date": "2026-09-27",
@@ -2585,7 +2585,7 @@
       "level": 0,
       "column": 107,
       "lane": 1,
-      "distance": 2496.599
+      "distance": 2476.473
     },
     {
       "date": "2026-09-28",
@@ -2593,7 +2593,7 @@
       "level": 0,
       "column": 107,
       "lane": 2,
-      "distance": 2496.599
+      "distance": 2476.473
     },
     {
       "date": "2026-09-29",
@@ -2601,7 +2601,7 @@
       "level": 0,
       "column": 108,
       "lane": 0,
-      "distance": 2519.922
+      "distance": 2499.608
     },
     {
       "date": "2026-09-30",
@@ -2609,7 +2609,7 @@
       "level": 1,
       "column": 108,
       "lane": 1,
-      "distance": 2519.922
+      "distance": 2499.608
     },
     {
       "date": "2026-10-01",
@@ -2617,7 +2617,7 @@
       "level": 0,
       "column": 108,
       "lane": 2,
-      "distance": 2519.922
+      "distance": 2499.608
     },
     {
       "date": "2026-10-02",
@@ -2625,7 +2625,7 @@
       "level": 1,
       "column": 109,
       "lane": 0,
-      "distance": 2543.246
+      "distance": 2522.744
     },
     {
       "date": "2026-10-03",
@@ -2633,7 +2633,7 @@
       "level": 1,
       "column": 109,
       "lane": 1,
-      "distance": 2543.246
+      "distance": 2522.744
     },
     {
       "date": "2026-10-04",
@@ -2641,7 +2641,7 @@
       "level": 1,
       "column": 109,
       "lane": 2,
-      "distance": 2543.246
+      "distance": 2522.744
     },
     {
       "date": "2026-10-05",
@@ -2649,7 +2649,7 @@
       "level": 1,
       "column": 110,
       "lane": 0,
-      "distance": 2566.569
+      "distance": 2545.879
     },
     {
       "date": "2026-10-06",
@@ -2657,7 +2657,7 @@
       "level": 0,
       "column": 110,
       "lane": 1,
-      "distance": 2566.569
+      "distance": 2545.879
     },
     {
       "date": "2026-10-07",
@@ -2665,7 +2665,7 @@
       "level": 1,
       "column": 110,
       "lane": 2,
-      "distance": 2566.569
+      "distance": 2545.879
     },
     {
       "date": "2026-10-08",
@@ -2673,7 +2673,7 @@
       "level": 0,
       "column": 111,
       "lane": 0,
-      "distance": 2589.892
+      "distance": 2569.014
     },
     {
       "date": "2026-10-09",
@@ -2681,7 +2681,7 @@
       "level": 0,
       "column": 111,
       "lane": 1,
-      "distance": 2589.892
+      "distance": 2569.014
     },
     {
       "date": "2026-10-10",
@@ -2689,7 +2689,7 @@
       "level": 2,
       "column": 111,
       "lane": 2,
-      "distance": 2589.892
+      "distance": 2569.014
     },
     {
       "date": "2026-10-11",
@@ -2697,7 +2697,7 @@
       "level": 2,
       "column": 112,
       "lane": 0,
-      "distance": 2613.216
+      "distance": 2592.149
     },
     {
       "date": "2026-10-12",
@@ -2705,7 +2705,7 @@
       "level": 0,
       "column": 112,
       "lane": 1,
-      "distance": 2613.216
+      "distance": 2592.149
     },
     {
       "date": "2026-10-13",
@@ -2713,7 +2713,7 @@
       "level": 0,
       "column": 112,
       "lane": 2,
-      "distance": 2613.216
+      "distance": 2592.149
     },
     {
       "date": "2026-10-14",
@@ -2721,7 +2721,7 @@
       "level": 0,
       "column": 113,
       "lane": 0,
-      "distance": 2636.539
+      "distance": 2615.285
     },
     {
       "date": "2026-10-15",
@@ -2729,7 +2729,7 @@
       "level": 0,
       "column": 113,
       "lane": 1,
-      "distance": 2636.539
+      "distance": 2615.285
     },
     {
       "date": "2026-10-16",
@@ -2737,7 +2737,7 @@
       "level": 0,
       "column": 113,
       "lane": 2,
-      "distance": 2636.539
+      "distance": 2615.285
     },
     {
       "date": "2026-10-17",
@@ -2745,7 +2745,7 @@
       "level": 0,
       "column": 114,
       "lane": 0,
-      "distance": 2659.862
+      "distance": 2638.42
     },
     {
       "date": "2026-10-18",
@@ -2753,7 +2753,7 @@
       "level": 0,
       "column": 114,
       "lane": 1,
-      "distance": 2659.862
+      "distance": 2638.42
     },
     {
       "date": "2026-10-19",
@@ -2761,7 +2761,7 @@
       "level": 0,
       "column": 114,
       "lane": 2,
-      "distance": 2659.862
+      "distance": 2638.42
     },
     {
       "date": "2026-10-20",
@@ -2769,7 +2769,7 @@
       "level": 2,
       "column": 115,
       "lane": 0,
-      "distance": 2683.186
+      "distance": 2661.555
     },
     {
       "date": "2026-10-21",
@@ -2777,7 +2777,7 @@
       "level": 2,
       "column": 115,
       "lane": 1,
-      "distance": 2683.186
+      "distance": 2661.555
     },
     {
       "date": "2026-10-22",
@@ -2785,7 +2785,7 @@
       "level": 2,
       "column": 115,
       "lane": 2,
-      "distance": 2683.186
+      "distance": 2661.555
     },
     {
       "date": "2026-10-23",
@@ -2793,7 +2793,7 @@
       "level": 1,
       "column": 116,
       "lane": 0,
-      "distance": 2706.509
+      "distance": 2684.691
     },
     {
       "date": "2026-10-24",
@@ -2801,7 +2801,7 @@
       "level": 0,
       "column": 116,
       "lane": 1,
-      "distance": 2706.509
+      "distance": 2684.691
     },
     {
       "date": "2026-10-25",
@@ -2809,7 +2809,7 @@
       "level": 0,
       "column": 116,
       "lane": 2,
-      "distance": 2706.509
+      "distance": 2684.691
     },
     {
       "date": "2026-10-26",
@@ -2817,7 +2817,7 @@
       "level": 0,
       "column": 117,
       "lane": 0,
-      "distance": 2729.833
+      "distance": 2707.826
     },
     {
       "date": "2026-10-27",
@@ -2825,7 +2825,7 @@
       "level": 1,
       "column": 117,
       "lane": 1,
-      "distance": 2729.833
+      "distance": 2707.826
     },
     {
       "date": "2026-10-28",
@@ -2833,7 +2833,7 @@
       "level": 3,
       "column": 117,
       "lane": 2,
-      "distance": 2729.833
+      "distance": 2707.826
     },
     {
       "date": "2026-10-29",
@@ -2841,7 +2841,7 @@
       "level": 2,
       "column": 118,
       "lane": 0,
-      "distance": 2753.156
+      "distance": 2730.961
     },
     {
       "date": "2026-10-30",
@@ -2849,7 +2849,7 @@
       "level": 4,
       "column": 118,
       "lane": 1,
-      "distance": 2753.156
+      "distance": 2730.961
     },
     {
       "date": "2026-10-31",
@@ -2857,7 +2857,7 @@
       "level": 0,
       "column": 118,
       "lane": 2,
-      "distance": 2753.156
+      "distance": 2730.961
     },
     {
       "date": "2026-11-01",
@@ -2865,7 +2865,7 @@
       "level": 0,
       "column": 119,
       "lane": 0,
-      "distance": 2776.479
+      "distance": 2754.096
     },
     {
       "date": "2026-11-02",
@@ -2873,7 +2873,7 @@
       "level": 0,
       "column": 119,
       "lane": 1,
-      "distance": 2776.479
+      "distance": 2754.096
     },
     {
       "date": "2026-11-03",
@@ -2881,7 +2881,7 @@
       "level": 1,
       "column": 119,
       "lane": 2,
-      "distance": 2776.479
+      "distance": 2754.096
     },
     {
       "date": "2026-11-04",
@@ -2889,7 +2889,7 @@
       "level": 1,
       "column": 120,
       "lane": 0,
-      "distance": 2799.803
+      "distance": 2777.232
     },
     {
       "date": "2026-11-05",
@@ -2897,7 +2897,7 @@
       "level": 2,
       "column": 120,
       "lane": 1,
-      "distance": 2799.803
+      "distance": 2777.232
     },
     {
       "date": "2026-11-06",
@@ -2905,7 +2905,7 @@
       "level": 4,
       "column": 120,
       "lane": 2,
-      "distance": 2799.803
+      "distance": 2777.232
     },
     {
       "date": "2026-11-07",
@@ -2913,7 +2913,7 @@
       "level": 4,
       "column": 121,
       "lane": 0,
-      "distance": 2823.126
+      "distance": 2800.367
     },
     {
       "date": "2026-11-08",
@@ -2921,7 +2921,7 @@
       "level": 1,
       "column": 121,
       "lane": 1,
-      "distance": 2823.126
+      "distance": 2800.367
     },
     {
       "date": "2026-11-09",
@@ -2929,7 +2929,7 @@
       "level": 3,
       "column": 121,
       "lane": 2,
-      "distance": 2823.126
+      "distance": 2800.367
     },
     {
       "date": "2026-11-10",
@@ -2937,7 +2937,7 @@
       "level": 2,
       "column": 122,
       "lane": 0,
-      "distance": 2846.449
+      "distance": 2823.502
     },
     {
       "date": "2026-11-11",
@@ -2945,15 +2945,23 @@
       "level": 4,
       "column": 122,
       "lane": 1,
-      "distance": 2846.449
+      "distance": 2823.502
     },
     {
       "date": "2026-11-12",
-      "count": 2,
+      "count": 4,
       "level": 1,
       "column": 122,
       "lane": 2,
-      "distance": 2846.449
+      "distance": 2823.502
+    },
+    {
+      "date": "2026-11-13",
+      "count": 6,
+      "level": 1,
+      "column": 123,
+      "lane": 0,
+      "distance": 2846.637
     }
   ]
 }
